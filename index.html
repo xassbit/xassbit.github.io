@@ -1,13 +1,30 @@
-{% extends "base.html" %}
+<!DOCTYPE HTML>
+<head>
+	<meta charset="utf-8">
+	<title>Controlled Flame</title>
+	<link rel="stylesheet" href="Stylesheets/main.css">
+</head>
 
-{% block content %}
-	<h3>Items in stock</h3>
-	<ul>
-		{% for item in items %}
-			<li>
-				<a href="{% url 'item_detail' item.id %}">
-					{{ item.title|capfirst }}
-				</a>
-			</li>
-		{% endfor %}
-{% endblock %}
+<body>
+
+	<div id="nav">
+		<ul>
+			<li><a href="http://jamwithhumans.com/lessons">[Music and tech lessons]</a></li>
+			<li><a href="http://jamwithhumans.com/workshops">[Creativity & music workshops]</a></li>
+			<li><a href="mailto:controlledflame@gmail.com">[Contact]</a></li>
+		</ul>
+	</div>
+		
+	<div id="title">
+		<h1>Controlled Flame</h1>
+		<h2>by Daniel Matias Ferrer</h2>
+	</div>
+
+	<!--h1>About</h1-->
+	
+	<img src="Images/headshot.png" height=250em>
+	
+	<h2>HI, I'M DANIEL</h2>
+		
+	<p>I'm a musician, music teacher and sometimes music and video producer. I like to talk about work almost as much as I like to do it. This is my personal website.</p>
+</body>
