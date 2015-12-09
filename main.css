@@ -13,7 +13,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body {
 	font-family: San Francisco, Helvetica, Arial, Verdana, sans-serif;
-	margin: 7% 20%;
+	margin: 7% 30%;
 	background-color: rgb(40, 40, 40);
 	color: white;
 }
@@ -26,7 +26,8 @@ body {
 }
 
 #title h2 {
-	font-size: 0.7em;
+	font-size: 1em;
+	padding: 1% 0%;
 }
 
 #nav ul {
@@ -52,6 +53,10 @@ body {
 
 /* WEBSITE'S CONTENT */
 
+#main {
+	margin: 5% 0% 0% 0%;
+}
+
 h1 {
 	font-size: 3em;
 }
@@ -66,5 +71,5 @@ p {
 
 img {
 	position: center;
-	padding: 0% 2% 2% 2%;
+	padding: 0% 2% 2% 0%;
 }
