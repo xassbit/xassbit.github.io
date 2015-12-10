@@ -34,9 +34,9 @@ body {
 	list-style-type: none;
 }
 
-#nav ul li {
+/* #nav ul li {
 	display: inline;
-}
+}*/
 
 #nav ul li a {
 	text-decoration: none;
