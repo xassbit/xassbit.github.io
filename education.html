@@ -12,27 +12,36 @@
 	<header id="header">
 		<h1>Daniel Matias Ferrer</h1>
 		<h2>Curriculum Vitae</h2>
-		<hr width="75%" align="left">
 	</header>
+	
+<ul id="nav">
+    <li><a href="index.html">Home</a>
+    </li>
+    <li><p 
+        onmouseover="mopen('submenu')" 
+        onmouseout="mclosetime()">Skills</p>
+        <div id="submenu" 
+            onmouseover="mcancelclosetime()" 
+            onmouseout="mclosetime()">
+        <a href="video.html">Video production</a>
+        <a href="music.html">Music production</a>
+        <a href="management.html">Management</a>
+        <a href="software.html">Software development</a>
+        <a href="web.html">Web development</a>
+        <a href="teaching.html">Teaching</a>
+        </div>
+    </li>
+    <li><a href="projects.html">Current projects</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="bio.html">Bio/contact</a></li>
+    <li><a href="about.html">About this document</a></li>
+</ul>
+<div style="clear:both"></div>
 	
 	<div id="main">
 		<h2>Content area</h2>
 	</div>
-	<div id="nav">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="video.html">Video production</a></li>
-			<li><a href="music.html">Music production</a></li>
-			<li><a href="management.html">Management</a></li>
-			<li><a href="software.html">Software development</a></li>
-			<li><a href="web.html">Web development</a></li>
-			<li><a href="teaching.html">Teaching</a></li>
-			<li><a href="projects.html">Current projects</a></li>
-			<li><a href="education.html">Education</a></li>
-			<li><a href="bio.html">Bio</a></li>
-			<li><a href="about.html">About this document</a></li>
-		</ul>
-	</div>
-</body>
 
-</html
+</body>
+<script src="navigation.js"></script>
+</html>
