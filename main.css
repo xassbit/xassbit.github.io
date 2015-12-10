@@ -12,7 +12,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* MAIN STYLE */
 
 body {
-	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Helvetiva, Arial, sans-serif;
 	margin: 7% 30%;
 	background-color: rgb(40, 40, 40);
 	color: white;
@@ -20,23 +20,20 @@ body {
 
 /* WEBSITE'S HEADER */
 
-#header h1 {
+header h1 {
 	font-size: 3em;
-	line-height: 0.5;
+	line-height: 100%;
 }
 
-#header h2 {
+header h2 {
 	font-size: 1em;
-	padding: 1% 0%;
+	padding: 1.5% 0% 0% 0%;
+	color: rgb(200,200,200)
 }
 
 #nav ul {
 	list-style-type: none;
 }
-
-/* #nav ul li {
-	display: inline;
-}*/
 
 #nav ul li a {
 	text-decoration: none;
