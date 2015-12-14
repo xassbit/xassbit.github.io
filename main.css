@@ -5,19 +5,30 @@ body {
 /* Header */
 
 header {
-    background-color: dodgerblue;
-    
     width: 50em;
     margin: 0 20%;
     padding: 0;
     border: 0;
 }
 
+header .title {
+    display: inline;
+}
+
+
+header h1 {
+	color: rgb(0, 0, 0);
+	font-size: 2.5em;
+}
+
+header h2 {
+	color: rgb(92, 92, 92);
+	font-size: 1.3em;
+}
+
 /* Navigation */
 
 nav {
-    background-color: coral;
-    
     width: 50em;
     margin: 0 20%;
     padding: 0;
@@ -50,7 +61,7 @@ nav li a:hover {
 }
 
 nav .active {
-    background-color: #4CAF50;
+    background-color: #427daf;
 }
 
 /* Dropdown Menu */
@@ -83,14 +94,12 @@ nav .dropdown:hover .dropdown-content {
 }
 
 nav .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #29328e;
 }
 
 /* Main content */
 
 article {
-    background-color: chartreuse;
-    
     width: 50em;
     margin: 0 20%;
     padding: 0;
@@ -100,11 +109,11 @@ article {
 /* Footer */
 
 footer {
-    background-color: deeppink;
-        
     width: 50em;
     margin: 0 20%;
     padding: 0;
     border: 0;
+    
+    text-align: center;
     
 }
