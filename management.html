@@ -18,16 +18,18 @@
 <nav>
 	<ul>
     	<li><a href="index.html">Home</a></li>
-    	<li>
-    	<span onmouseover="mopen('submenu')" onmouseout="mclosetime()">Skills</span>
-        <div id="submenu" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
-        	<a href="video.html">Video production</a>
-	        <a href="music.html">Music production</a>
-    	    <a href="management.html" id="current">Management</a>
-        	<a href="software.html">Software development</a>
-        	<a href="web.html">Web development</a>
-        	<a href="teaching.html">Teaching</a>
-        </div>
+    	<li class="active">
+            <div class="dropdown">
+                <a href="web.html">Skills</a>
+                <div class="dropdown-content">
+                    <a href="video.html">Video production</a>
+                    <a href="music.html">Music production</a>
+                    <a href="management.html">Management</a>
+                    <a href="software.html">Software development</a>
+                    <a href="web.html">Web development</a>
+                    <a href="teaching.html">Teaching</a>
+                </div>
+            </div>
     	</li>
     	<li><a href="projects.html">Current projects</a></li>
     	<li><a href="education.html">Education</a></li>
@@ -42,7 +44,7 @@
 
 <footer>
 
-
+    <span>&#169; 2015 Daniel Matias Ferrer</span>
 
 </footer>
 

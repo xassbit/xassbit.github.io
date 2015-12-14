@@ -1,119 +1,110 @@
-/* Reset */
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-/* MAIN STYLE */
-
 body {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", Helvetiva, Arial, sans-serif;
-	margin: 7% 30%;
-	background-color: rgb(40, 40, 40);
-	color: white;
+    font-family: sans-serif;
 }
 
-/* WEBSITE'S HEADER */
-header h1 {
-	font-size: 3em;
-	line-height: 100%;
+/* Header */
+
+header {
+    background-color: dodgerblue;
+    
+    width: 50em;
+    margin: 0 20%;
+    padding: 0;
+    border: 0;
 }
 
-header h2 {
-	font-size: 1em;
-	padding: 1.5% 0% 1.5% 0%;
-	color: rgb(200,200,200)
+/* Navigation */
+
+nav {
+    background-color: coral;
+    
+    width: 50em;
+    margin: 0 20%;
+    padding: 0;
+    border: 0;
+    
 }
 
-
-/* WEBSITE'S CONTENT */
-
-article {
-	margin: 5% 0% 0% 0%;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-h1 {
-	font-size: 3em;
-}
-
-h2 {
-	font-size: 2em;
-}
-
-p {
-	font-size: 1em;
-}
-
-img {
-	position: center;
-	padding: 0% 2% 2% 0%;
-}
-
-
-nav li {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	float: left;
-}
-
-nav span {
-	display: block;
-	padding: 4px 10px 4px 0px;
-	color: #8c8c8c;
-	text-align: center;
-	text-decoration: none;
-}
-
-nav #current a{
-	color: white;
+nav ul li {
+    float: left;
 }
 
 nav li a {
-	display: block;
-	padding: 4px 10px 4px 0px;
-	color: #8c8c8c;
-	text-align: center;
-	text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 nav li a:hover {
-	color: #656565;
+    background-color: #111;
 }
 
-nav div {
-	position: absolute;
-	visibility: hidden;
-	margin: 0;
-	padding: 0;
+nav .active {
+    background-color: #4CAF50;
 }
 
-nav div a {
-	position: relative;
-	display: block;
-	margin: 0;
-	padding: 5px 10px 5px 0px;
-	width: auto;
-	white-space: nowrap;
+/* Dropdown Menu */
+
+nav .dropdown {
+    position: float;
+    display: inline-block;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 	text-align: left;
-	text-decoration: none;
-	background-color: rgb(40, 40, 40);
 }
 
-nav div #current {
-	position: relative;
-	display: block;
-	margin: 0;
-	padding: 5px 10px 5px 0px;
-	width: auto;
-	white-space: nowrap;
-	text-align: left;
-	text-decoration: none;
-	background-color: rgb(40, 40, 40);
-	color: white;
+nav .dropdown-content a:hover {background-color: #f1f1f1}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* Main content */
+
+article {
+    background-color: chartreuse;
+    
+    width: 50em;
+    margin: 0 20%;
+    padding: 0;
+    border: 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: deeppink;
+        
+    width: 50em;
+    margin: 0 20%;
+    padding: 0;
+    border: 0;
+    
 }
