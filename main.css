@@ -62,12 +62,16 @@ nav li {
 	float: left;
 }
 
-nav p {
+nav span {
 	display: block;
 	padding: 4px 10px 4px 0px;
-	color: #ffffff;
+	color: #8c8c8c;
 	text-align: center;
 	text-decoration: none;
+}
+
+nav #current a{
+	color: white;
 }
 
 nav li a {
@@ -89,7 +93,7 @@ nav div {
 	padding: 0;
 }
 
-nav div a	{
+nav div a {
 	position: relative;
 	display: block;
 	margin: 0;
@@ -99,4 +103,17 @@ nav div a	{
 	text-align: left;
 	text-decoration: none;
 	background-color: rgb(40, 40, 40);
+}
+
+nav div #current {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px 5px 0px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background-color: rgb(40, 40, 40);
+	color: white;
 }
