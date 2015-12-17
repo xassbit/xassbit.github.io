@@ -52,19 +52,18 @@ header a {
 
 @media only screen and (max-width: 767px) {
 
-<<<<<<< HEAD
 nav {
     background-color: #333;
 	width: 50em;
     margin: auto;
     border: 0;
 	font-weight: 300;
-=======
+    }
+
     #nav {
         /* this ID allows the navigation bar colour to extend from edge to edge */
         background-color: #333;
     }
->>>>>>> responsive
     
     nav {
         font-weight: 300;
@@ -255,19 +254,11 @@ article ul li ul {
 /* Footer */
 
 footer {
-<<<<<<< HEAD
-    width: 50em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 
-=======
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
     margin-bottom: 1%;
->>>>>>> responsive
     padding: 0;
     border: 0;
     text-align: center;
