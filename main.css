@@ -52,14 +52,6 @@ header a {
 
 @media only screen and (max-width: 767px) {
 
-nav {
-    background-color: #333;
-	width: 50em;
-    margin: auto;
-    border: 0;
-	font-weight: 300;
-    }
-
     #nav {
         /* this ID allows the navigation bar colour to extend from edge to edge */
         background-color: #333;
@@ -222,11 +214,7 @@ article h3 {
 article h4 {
 	font-size: 1.1em;
 	margin: 0;
-<<<<<<< HEAD
-	padding: 1% 0 0 0;
-=======
 	padding: 2% 0 0 0;
->>>>>>> responsive
 }
 
 article p {
