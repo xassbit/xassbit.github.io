@@ -20,11 +20,22 @@ body {
 
 /* Header */
 
-header {
-    width: 60%;
-    margin: 3% auto 2%;
+@media only screen and (max-width: 767px) {
+    header {
+    width: 90%;
+    margin: 2em auto 1.5em;
     padding: 0;
     border: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+    width: 60%;
+    margin: 2em auto 1.5em;
+    padding: 0;
+    border: 0;
+    }
 }
 
 header .title {
@@ -189,23 +200,39 @@ header a {
 
 /* Main content */
 
-article {
-    width: 60%;
-    margin: 1% auto;
-    padding: 0;
-    border: 0;
+@media only screen and (max-width: 767px) {
+    article {
+        width: 90%;
+        margin: 1% auto;
+        padding: 0;
+        border: 0;
+        text-align: left;
+    }
 }
 
+@media only screen and (min-width: 768px) {
+    article {
+        width: 60%;
+        margin: 1% auto;
+        padding: 0;
+        border: 0;
+    }
+}
+    
 article h1 {
 	font-size: 2.5em;
 	padding: 1em 0 0 0;
 	line-height: 1em;
+	text-align: left;
+	color: black;
 }
 
 article h2 {
 	font-size: 1.7em;
 	padding: 2em 0 0 0;
 	line-height: 1em;
+	text-align: left;
+	color: black;
 }
 
 article h3 {
@@ -213,6 +240,7 @@ article h3 {
 	padding: 0.5em 0 0 0;
 	line-height: 1em;
 	color: rgb(146, 146, 146);
+	text-align: left;
 }
 
 article h4 {
@@ -221,6 +249,7 @@ article h4 {
 	padding: 1em 0 0 0;
 	line-height: 1em;
 	color: rgb(146, 146, 146);
+	text-align: left;
 }
 
 article p {
@@ -228,6 +257,8 @@ article p {
 	font-size: 1.2em;
 	padding: 0.3em 0 0 0;
 	line-height: 1.2em;
+	text-align: left;
+	color: black;
 }
 
 article a {
@@ -241,6 +272,8 @@ article ul {
 	font-size: 1.2em;
 	list-style-position: inside;
 	line-height: 1.2em;
+	text-align: left;
+	color: black;
 }
 
 article ul li ul {
@@ -248,22 +281,37 @@ article ul li ul {
 	list-style-type: none;
 	font-size: 1em;
 	line-height: 1.2em;
+	text-align: left;
+	color: black;
 }
 
 
 /* Footer */
 
-footer {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 1%;
-    padding: 0;
-    border: 0;
-    text-align: center;
-	color: rgb(146, 146, 146);
+@media only screen and (max-width: 767px) {
+    footer {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 1%;
+        padding: 0;
+        border: 0;
+        text-align: center;
+        color: rgb(146, 146, 146);
+    }
 }
-
-
-
+    
+@media only screen and (min-width: 768px) {
+    footer {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 1%;
+        padding: 0;
+        border: 0;
+        text-align: center;
+        color: rgb(146, 146, 146);
+    }
+}
