@@ -222,7 +222,7 @@ header a {
 article h1 {
 	font-size: 2.5em;
 	padding: 1em 0 0 0;
-	line-height: 1em;
+	line-height: 1.2em;
 	text-align: left;
 	color: black;
 }
@@ -230,7 +230,7 @@ article h1 {
 article h2 {
 	font-size: 1.7em;
 	padding: 2em 0 0 0;
-	line-height: 1em;
+	line-height: 1.2em;
 	text-align: left;
 	color: black;
 }
@@ -238,7 +238,7 @@ article h2 {
 article h3 {
 	font-size: 1.5em;
 	padding: 0.5em 0 0 0;
-	line-height: 1em;
+	line-height: 1.2em;
 	color: rgb(146, 146, 146);
 	text-align: left;
 }
@@ -247,7 +247,7 @@ article h4 {
 	font-size: 1.3em;
 	margin: 0;
 	padding: 1em 0 0 0;
-	line-height: 1em;
+	line-height: 1.2em;
 	color: rgb(146, 146, 146);
 	text-align: left;
 }
