@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic);
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic);
 
 html {
     background-color: #333;
@@ -8,7 +8,6 @@ html {
 
 
 body {
-	margin: auto;
 	padding: 0;
 	background-color: white;
     font-family: "Open Sans", sans-serif;
@@ -159,12 +158,12 @@ header a {
 
     nav .dropdown-content ul {
         display: none;
+		position: absolute;
         list-style-type: none;
         margin: 0;
         padding: 0;
         width: 200px;
         background-color: #f1f1f1;
-        position: fixed;
         min-width: 160px;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
