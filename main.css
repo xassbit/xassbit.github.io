@@ -4,13 +4,15 @@ html {
     background-color: #333;
     margin: 0;
     padding: 0;
+	margin: auto;
 }
 
 
 body {
 	padding: 0;
+	margin: auto;
 	background-color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 	border-top: 10px solid #333;
 	border-bottom: 15px solid #333;
 	line-height: 1.5em;
