@@ -278,7 +278,7 @@ article a {
 
 article ul {
 	margin: 0;
-	padding: 1% 0 0 0;
+	padding: 1em 0 0 0;
 	font-size: 1.2em;
 	list-style-position: inside;
 	line-height: 1.2em;
@@ -324,4 +324,4 @@ article ul li ul {
         text-align: center;
         color: rgb(146, 146, 146);
     }
-}
+}git 
