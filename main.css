@@ -31,7 +31,7 @@ body {
 
 @media only screen and (min-width: 768px) {
     header {
-    width: 60%;
+    width: 45%;
     margin: 2em auto 1.5em;
     padding: 0;
     border: 0;
@@ -126,7 +126,7 @@ header a {
     nav {
         background-color: #333;
         width: 80%;
-        margin-left: 20%;
+        margin-left: 27%;
         border: 0;
         font-weight: 300;
 
@@ -217,7 +217,7 @@ header a {
 
 @media only screen and (min-width: 768px) {
     article {
-        width: 60%;
+        width: 45%;
         margin: 1% auto;
         padding: 0;
         border: 0;
@@ -314,7 +314,7 @@ article ul li ul {
     
 @media only screen and (min-width: 768px) {
     footer {
-        width: 60%;
+        width: 45%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 5%;
@@ -324,4 +324,4 @@ article ul li ul {
         text-align: center;
         color: rgb(146, 146, 146);
     }
-}git 
+}
