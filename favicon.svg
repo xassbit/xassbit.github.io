@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="favicon.svg">
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="/Users/xassbit/Desktop/repos/xassbit.github.io/favicon.png"
+   inkscape:export-xdpi="131.20084"
+   inkscape:export-ydpi="131.20084">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0748023"
-     inkscape:cx="329.12852"
-     inkscape:cy="333.91927"
+     inkscape:zoom="0.87411253"
+     inkscape:cx="261.50289"
+     inkscape:cy="301.90881"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -50,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,43 +63,36 @@
      id="layer1"
      transform="translate(0,-537.36216)">
     <g
-       id="g4147"
-       transform="translate(-2.3260045,0)">
+       id="g4144"
+       transform="matrix(0.84258611,0,0,1,8.0581277,37.681274)">
       <rect
          style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect4140"
-         width="445.91846"
+         width="372.03369"
          height="90.097084"
-         x="12.135921"
+         x="122.38876"
          y="546.29089" />
-      <rect
-         y="678.56128"
-         x="16.787939"
-         height="90.097084"
-         width="675.72815"
-         id="rect4143"
-         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
          style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect4145"
-         width="675.72815"
+         width="563.76599"
          height="90.097084"
-         x="15.857535"
-         y="810.83167" />
+         x="125.49374"
+         y="744.69647" />
       <rect
          y="943.10205"
-         x="13.996728"
+         x="123.94125"
          height="90.097084"
-         width="675.72815"
+         width="563.76599"
          id="rect4138"
          style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4141"
        width="773.16547"
        height="773.16547"
        x="-36.582733"
-       y="346.18579" />
+       y="408.27942" />
   </g>
 </svg>
