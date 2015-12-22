@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700);
 
 html {
-    background-color: #333;
+    background-color: white;
     margin: 0;
     padding: 0;
-	margin: auto;
+	margin: 0;
+	border-top: 10px solid #333;
+	border-bottom: 15px solid #333;
 }
 
 
@@ -13,8 +15,6 @@ body {
 	margin: auto;
 	background-color: white;
     font-family: 'Quattrocento Sans', sans-serif;
-	border-top: 10px solid #333;
-	border-bottom: 15px solid #333;
 	line-height: 1.5em;
 }
 
@@ -131,7 +131,7 @@ header h2 img {
 
     nav {
         background-color: #333;
-        width: 73%;
+        width: 90%;
         margin-left: 27%;
         border: 0;
         font-weight: 300;
