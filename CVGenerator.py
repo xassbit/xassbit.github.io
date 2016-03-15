@@ -178,8 +178,8 @@ class Website():
         self.submenu_path = './skills/'
         self.menu = Website.create_menu('./_md/')
         self.submenu = Website.create_menu('./_md/skills/')
-        self.menu_order = Website.list_stored_pages('./menu.csv')
-        self.submenu_order = Website.list_stored_pages('./submenu.csv')
+        self.menu_order = Website.list_stored_pages('./_nav/menu.csv')
+        self.submenu_order = Website.list_stored_pages('./_nav/submenu.csv')
         
  
     def list_stored_pages(csv_file):
