@@ -111,7 +111,7 @@ header h2 img {
         display: block;
     }
 
-    nav .dropdown-content li a {
+    nav .submenu-content li a {
         color: #828282;
         background-color: #202020;
     }
@@ -170,12 +170,12 @@ header h2 img {
         background-color: #427daf;
     }
 
-    nav .dropdown {
+    nav .submenu {
         position: float;
         display: inline-block;
     }
 
-    nav .dropdown-content ul {
+    nav .submenu-content ul {
         display: none;
 		position: absolute;
         list-style-type: none;
@@ -187,7 +187,7 @@ header h2 img {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
-    nav .dropdown-content a {
+    nav .submenu-content a {
         color: black;
         width: 200px;
         padding: 12px 16px;
@@ -197,9 +197,9 @@ header h2 img {
         text-align: left;
     }
 
-    nav .dropdown-content ul a:hover {background-color: #f1f1f1}
+    nav .submenu-content ul a:hover {background-color: #f1f1f1}
 
-    nav .dropdown:hover .dropdown-content ul {
+    nav .submenu:hover .submenu-content ul {
         display: block;
     }
 }
