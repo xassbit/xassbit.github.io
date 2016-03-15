@@ -10,9 +10,9 @@ class Page:
         
         if title in menu:
             self.md_path = './_md/{0}.md'.format(title)
-            self.assets_path = './_assets/'
-            self.images_path = './_images/'
-            self.index_path = './index.html'
+            self.assets_path = '_assets/'
+            self.images_path = '_images/'
+            self.index_path = 'index.html'
             self.is_submenu_page = False
         elif title in submenu:
             self.md_path = './_md/skills/{0}.md'.format(title)
