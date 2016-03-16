@@ -3,8 +3,7 @@ Home
 Welcome to my online CV.
 
 #I have a very particular set of skills
-I enjoy solving problems in the fields of technology and creativity. I do so by learning the languages of the subjects involved.
-
+I enjoy solving problems in the fields of technology and creativity by understanding their systems and languages.
 ##I speak the languages of machines...
 Since very young I was interested in the use of technology to help with facilitating tasks. For that reason I have learned web and software development, as well as a set of tools in the form of apps and online services which help me managing my time and my business.
 ####[Software development skills](skills/software.html)
