@@ -12,7 +12,7 @@ BSc in physics
 ####Key Skills
 Mathematics: calculus, algebra, linear algebra, analysis, statistics.  
 Physics: mechanics, electromagnetism, thermodynamics, waves and oscillations, optics, electronics.  
-Programming: Python, SciPy, functional programming.
+Programming: Python, SciPy.
 
 ##<a name="edu-nijmegen"></a>Radboud University Nijmegen
 

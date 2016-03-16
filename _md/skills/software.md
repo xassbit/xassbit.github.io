@@ -7,7 +7,6 @@ Software development
 - [Pythonista](http://omz-software.com/pythonista/)
 
 ####Skills
-- [Functional programming](../education.html#edu-porto)
 - Object oriented programming
 - Design patterns
 - Development for Raspbery Pi with circuit board electronics
