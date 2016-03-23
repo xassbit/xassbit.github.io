@@ -6,7 +6,7 @@ from htmldom import htmldom
 from markdown import markdown
 
 class Page:
-    def __init__(self, title, menu, submenu, menu_order, submenu_order):
+    def __init__(self, title, menu, submenu, menu_order, submenu_order, submenu_name):
         
         if title in menu:
             self.md_path = './_md/{0}.md'.format(title)
@@ -14,8 +14,11 @@ class Page:
             self.images_path = './'
             self.index_path = 'index.html'
             self.is_submenu_page = False
+            
         elif title in submenu:
-            self.md_path = './_md/skills/{0}.md'.format(title)
+            
+            self.md_path = './_md/{0}/{1}.md'.format(submenu_name,title)
+            
             self.assets_path = '../'
             self.images_path = '../'
             self.index_path = '../index.html'
@@ -26,6 +29,7 @@ class Page:
         self.menu_order = menu_order
         self.submenu_order = submenu_order
         self.title = title
+        self.submenu_name = submenu_name
     
         head = self.generate_head()
         body = self.generate_body()
@@ -51,6 +55,8 @@ class Page:
         css_path = self.assets_path + 'main.css'
         icon_path = self.assets_path + 'favicon.png'
         
+        # Costumize: author and title
+        
         head_content = [
             """<meta charset="utf-8">""",
             """<meta name="viewport" content="width=device-width, initial-scale=1.0">""",
@@ -74,6 +80,8 @@ class Page:
         
         icon_path = self.assets_path + 'favicon.png'
         
+        # Costumize: content of the header
+        
         header_content = [
             """<h1 class="title"><a href="{0}">Daniel Matias Ferrer</a></h1>""".format(self.index_path),
             """<h2 class="title"><a href="{0}">Curriculum&nbsp;Vitae<img src="{1}"></a></h2>""".format(self.index_path, icon_path),
@@ -96,7 +104,8 @@ class Page:
             pre_submenu_path = './'
         else:
             pre_menu_path = './'
-            pre_submenu_path = './skills/'
+            
+            pre_submenu_path = './{0}/'.format(self.submenu_name)
 
         # Insert pages
         content = nav.find("div.menu-content")
@@ -108,13 +117,13 @@ class Page:
             else:
                 li_class = ''
             
-            if page == "skills":
+            if page == self.submenu_name:
                 
                 if self.title in list(self.submenu_order):
                     li_class = ' class="active"'
 
                 # Insert submenu content when "submenu" item is found
-                content.append("""<li{0}><div class="submenu"> <a href="{1}skills.html">Skills</a><div class="submenu-content"><ul></ul></div></li>""".format(li_class, pre_menu_path))
+                content.append("""<li{0}><div class="submenu"> <a href="{1}{2}.html">{3}</a><div class="submenu-content"><ul></ul></div></li>""".format(li_class, pre_menu_path,self.submenu_name,self.submenu_name))
                 subcontent = nav.find("div.submenu-content ul")
                 for page in list(self.submenu_order):
                     page_title = self.submenu[page]
@@ -161,6 +170,9 @@ class Page:
         
     
     def generate_footer():
+        
+        # Customize: content of footer
+        
         footer = """<footer>\n<span>&#169; 2015 Daniel Matias Ferrer</span>\n</footer>"""
         footer = Page.indent(footer)
         return footer
@@ -170,14 +182,16 @@ class Page:
         string = '\t' + string + '\n'
         return string
     
-class Website():
+class Website(submenu_name):
     
     def __init__(self):
         
+        self.submenu_name = submenu_name
         self.menu_path = './'
-        self.submenu_path = './skills/'
+        self.submenu_path = './{0}/'.format(self.submenu_name)
         self.menu = Website.create_menu('./_md/')
-        self.submenu = Website.create_menu('./_md/skills/')
+        self.submenu =
+        Website.create_menu('./_md/{0}/'.format(self.submenu_name))
         self.menu_order = Website.list_stored_pages('./_nav/menu.csv')
         self.submenu_order = Website.list_stored_pages('./_nav/submenu.csv')
         
@@ -289,4 +303,4 @@ class Website():
 
 if __name__=="__main__":
     website = Website()
-    website.create_website()
+    website.create_website('skills')
