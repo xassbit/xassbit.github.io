@@ -182,15 +182,15 @@ class Page:
         string = '\t' + string + '\n'
         return string
     
-class Website(submenu_name):
+class Website():
     
-    def __init__(self):
+    def __init__(self, submenu_name):
         
         self.submenu_name = submenu_name
         self.menu_path = './'
         self.submenu_path = './{0}/'.format(self.submenu_name)
         self.menu = Website.create_menu('./_md/')
-        self.submenu =
+        self.submenu = Website.create_menu('./_md/{0}/'.format(self.submenu_name))
         Website.create_menu('./_md/{0}/'.format(self.submenu_name))
         self.menu_order = Website.list_stored_pages('./_nav/menu.csv')
         self.submenu_order = Website.list_stored_pages('./_nav/submenu.csv')
@@ -262,7 +262,7 @@ class Website(submenu_name):
         print("MENU PAGES GENERATED:\n")
         
         for page in list(self.menu_order):
-            html = Page(page, self.menu, self.submenu, self.menu_order, self.submenu_order).html
+            html = Page(page, self.menu, self.submenu, self.menu_order, self.submenu_order, self.submenu_name).html
             f = open('{0}{1}.html'.format(self.menu_path, page), 'w')
             f.write(html)
             f.close
@@ -271,7 +271,7 @@ class Website(submenu_name):
         print("\nSUBMENU PAGES GENERATED:\n")
         
         for page in list(self.submenu_order):
-            html = Page(page, self.menu, self.submenu, self.menu_order, self.submenu_order).html
+            html = Page(page, self.menu, self.submenu, self.menu_order, self.submenu_order, self.submenu_name).html
             f = open('{0}{1}.html'.format(self.submenu_path, page), 'w')
             f.write(html)
             f.close
@@ -302,5 +302,5 @@ class Website(submenu_name):
 
 
 if __name__=="__main__":
-    website = Website()
-    website.create_website('skills')
+    website = Website('skills')
+    website.create_website()
