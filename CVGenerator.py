@@ -123,7 +123,7 @@ class Page:
                     li_class = ' class="active"'
 
                 # Insert submenu content when "submenu" item is found
-                content.append("""<li{0}><div class="submenu"> <a href="{1}{2}.html">{3}</a><div class="submenu-content"><ul></ul></div></li>""".format(li_class, pre_menu_path,self.submenu_name,self.submenu_name))
+                content.append("""<li{0}><div class="submenu"> <a href="{1}{2}.html">{3}</a><div class="submenu-content"><ul></ul></div></li>""".format(li_class, pre_menu_path,self.submenu_name,self.submenu_name.capitalize()))
                 subcontent = nav.find("div.submenu-content ul")
                 for page in list(self.submenu_order):
                     page_title = self.submenu[page]
