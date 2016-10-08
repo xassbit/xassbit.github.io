@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!python
 import re
 import os
 import csv
@@ -294,9 +294,9 @@ class Website():
             f.close()
         
         if for_menu:
-            create_csv('./menu.csv', self.menu.keys())
+            create_csv('./_nav/menu.csv', self.menu.keys())
         if for_submenu:
-            create_csv('./submenu.csv', self.submenu.keys())
+            create_csv('./_nav/submenu.csv', self.submenu.keys())
         
         print('Menu and submenu .csv files create.')
 
