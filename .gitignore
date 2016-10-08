@@ -9,3 +9,5 @@ var/
 venv/
 node_modules
 .npm
+.idea
+.DS_Store
