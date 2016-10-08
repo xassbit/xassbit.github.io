@@ -1,7 +1,7 @@
 {
   "name": "xassbit.github.io",
   "version": "1.0.0",
-  "description": "Curriculum Vitae",
+  "description": "Curriculum Vitae with generator written in Python",
   "main": "index.html",
   "repository": {
     "type": "git",
@@ -12,5 +12,12 @@
   "bugs": {
     "url": "https://github.com/xassbit/xassbit.github.io/issues"
   },
-  "homepage": "https://github.com/xassbit/xassbit.github.io#readme"
+  "homepage": "https://github.com/xassbit/xassbit.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  }
 }
