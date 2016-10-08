@@ -17,12 +17,6 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./'));
 });
 
- // Watch
-
-gulp.task('watch', function () {
-  gulp.watch('./static/scss/**/*.scss', ['sass']);
-});
-
 // Compile for production environment
 
 gulp.task('prod', function() {
@@ -32,6 +26,12 @@ gulp.task('prod', function() {
     .pipe(gulp.dest('./'));
 });
 
+ // Watch
+
+gulp.task('watch', function () {
+  gulp.watch('./static/scss/**/*.scss', ['sass', 'prod']);
+});
+
 // Default
 
-gulp.task('default', ['sass', 'sass-admin']);
+gulp.task('default', ['sass', 'prod']);
