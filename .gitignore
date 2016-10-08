@@ -1,0 +1,13 @@
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+var/
+venv/
+node_modules
+.npm
+.idea
+.DS_Store
