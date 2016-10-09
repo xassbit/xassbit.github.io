@@ -206,9 +206,8 @@ article a {
 
 article ul {
   margin: 0;
-  padding: 1em 0 0 0;
+  padding: 1em 0 0 20px;
   font-size: 1.2em;
-  list-style-position: inside;
   line-height: 1.2em;
   text-align: left;
   color: black; }
