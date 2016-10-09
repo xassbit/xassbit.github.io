@@ -1,5 +1,5 @@
 import sys
-import CVGenerator
+from CVGenerator import CVGenerator
 
 possible_commands = {
     'generate': lambda: CVGenerator.Website('skills').create_website()
