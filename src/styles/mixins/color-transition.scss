@@ -1,0 +1,5 @@
+@mixin background-color-transition() {
+  -moz-transition: background-color .1s ease-in;
+  -o-transition: background-color .1s ease-in;
+  -webkit-transition: background-color .1s ease-in;
+}
