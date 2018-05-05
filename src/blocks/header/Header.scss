@@ -1,5 +1,16 @@
-header {
-  .header-title {
+@import "../../styles/colours";
 
+header {
+  background-color: $dark-purple;
+  color: white;
+  padding: 40px;
+  .header-title {
+    h1 {
+      font-weight: normal;
+    }
+    h2 {
+      font-weight: normal;
+      font-style: oblique;
+    }
   }
 }
