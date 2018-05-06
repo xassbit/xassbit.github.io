@@ -6,6 +6,7 @@ import * as ReactDOM from "react-dom";
 import Header from "./blocks/header/Header";
 import Intro from "./blocks/intro/Intro";
 import "./index.scss";
+import Footer from "./blocks/footer/Footer";
 
 const App: React.StatelessComponent = () =>
     <>
@@ -17,6 +18,9 @@ const App: React.StatelessComponent = () =>
                 <Intro/>
             </section>
         </article>
+        <footer>
+            <Footer/>
+        </footer>
     </>;
 
 ReactDOM.render(
