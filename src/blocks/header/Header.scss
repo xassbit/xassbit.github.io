@@ -4,7 +4,17 @@ header {
   background-color: $dark-purple;
   color: white;
   padding: 40px;
+  display: flex;
+  .header-image {
+    display: inline-block;
+    width: 15%;
+    img {
+      max-width: 100%;
+    }
+  }
   .header-title {
+    display: inline-block;
+    padding: 30px 30px;
     h1 {
       font-weight: normal;
     }
