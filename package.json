@@ -48,5 +48,8 @@
   "scripts": {
     "server": "webpack-dev-server --env=dev",
     "build": "webpack --progress --colors --env=prod --watch"
+  },
+  "dependencies": {
+    "stylelint": "^9.2.0"
   }
 }
