@@ -3,7 +3,7 @@ import "./Tab.scss";
 
 interface TabProps {
     title: string;
-    open: boolean;
+    open?: boolean;
 }
 
 interface TabState {
@@ -16,14 +16,20 @@ class Tab extends React.Component<TabProps, TabState> {
         this.state = {
             open: this.props.open ? this.props.open : false,
         };
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    public handleClick() {
+        const open = !this.state.open;
+        this.setState({open});
     }
 
     public render() {
         return <div className="tab">
-            <div className="tab-header">
+            <div className="tab-header" onClick={this.handleClick}>
                 <h3>{this.props.title}</h3>
             </div>
-            <div className="tab-body">
+            <div className={`tab-body${this.state.open ? " open" : ""}`}>
                 {this.props.children}
             </div>
         </div>;

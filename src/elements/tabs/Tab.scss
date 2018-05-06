@@ -14,5 +14,14 @@
     margin: 0;
     background-color: $light-purple;
     padding: 10px;
+    max-height: 0;
+    transition: max-height .4s ease-in;
+    overflow: hidden;
+
+    &.open {
+      height: auto;
+      max-height: 500px;
+      transition: max-height .4s ease-in;
+    }
   }
 }
