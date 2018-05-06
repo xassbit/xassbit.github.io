@@ -1,0 +1,18 @@
+@import "../../styles/colours";
+
+.tab {
+  .tab-header {
+    background-color: $dark-purple;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    h3 {
+      line-height: 0;
+    }
+  }
+  .tab-body {
+    margin: 0;
+    background-color: $light-purple;
+    padding: 10px;
+  }
+}
