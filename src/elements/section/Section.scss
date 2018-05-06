@@ -3,11 +3,14 @@
 .section-wrapper {
   margin: 0;
   display: block;
-  padding: 40px 0;
+  padding: 40px 0 0;
 
   &.purple {
     background-color: $dark-purple;
     color: white;
+  }
+  &.bottomPadding {
+    padding: 40px 0;
   }
   .section {
     width: 60%;

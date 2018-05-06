@@ -3,7 +3,7 @@ import Section from "../../elements/section/Section";
 import "./Footer.scss";
 
 const Footer: React.StatelessComponent = () =>
-    <Section purple>
+    <Section purple bottomPadding>
         <div className="footer">
             <p>&copy; 2018 Daniel Matias Ferrer</p>
             <aside><p>I really like purple</p></aside>

@@ -4,7 +4,7 @@ import "./Header.scss";
 import Section from "../../elements/section/Section";
 
 const Header: React.StatelessComponent = () =>
-    <Section purple>
+    <Section purple bottomPadding>
         <header>
             <div className="header-wrapper">
                 <div className="header-image">
