@@ -6,6 +6,8 @@
     color: white;
     padding: 10px;
     margin: 0;
+    border: 0 solid $light-purple;
+    border-bottom-width: 10px;
     h3 {
       line-height: 0;
     }
@@ -13,7 +15,6 @@
   .tab-body {
     margin: 0;
     background-color: $light-purple;
-    padding: 10px;
     max-height: 0;
     transition: max-height .4s ease-in;
     overflow: hidden;
@@ -22,6 +23,10 @@
       height: auto;
       max-height: 500px;
       transition: max-height .4s ease-in;
+    }
+
+    .tab-content {
+      padding: 10px;
     }
   }
 }

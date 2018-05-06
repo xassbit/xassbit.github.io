@@ -11,6 +11,12 @@ const Chronology: React.StatelessComponent = () =>
                     Bellow you'll find a chronology of the most relevant stages of my life thus far.</p>
             </Tab>
         </Tabs>
+        <Tabs>
+            <Tab title="Tab title">
+                <p>I've studied and worked in several roles in the arts and sciences.
+                    Bellow you'll find a chronology of the most relevant stages of my life thus far.</p>
+            </Tab>
+        </Tabs>
     </Section>;
 
 export default Chronology;

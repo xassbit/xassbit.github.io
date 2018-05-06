@@ -30,7 +30,9 @@ class Tab extends React.Component<TabProps, TabState> {
                 <h3>{this.props.title}</h3>
             </div>
             <div className={`tab-body${this.state.open ? " open" : ""}`}>
-                {this.props.children}
+                <div className="tab-content">
+                    {this.props.children}
+                </div>
             </div>
         </div>;
     }
