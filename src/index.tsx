@@ -9,7 +9,9 @@ import "./index.scss";
 
 const App: React.StatelessComponent = () =>
     <>
-        <Header/>
+        <header>
+            <Header/>
+        </header>
         <article>
             <section id="intro">
                 <Intro/>

@@ -1,0 +1,17 @@
+@import "../../styles/colours";
+
+.section-wrapper {
+  padding: 0;
+  margin: 0;
+  display: block;
+  padding: 40px 0;
+
+  &.purple {
+    background-color: $dark-purple;
+    color: white;
+  }
+  .section {
+    width: 70%;
+    margin: auto;
+  }
+}
