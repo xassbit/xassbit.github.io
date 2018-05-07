@@ -1,0 +1,9 @@
+$tablet: 768px;
+$desktop: 1224px;
+$tv: 1824px;
+
+@mixin breakpoint($point) {
+  @media (min-width: $point) {
+    @content ;
+  }
+}
