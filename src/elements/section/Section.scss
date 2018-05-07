@@ -1,4 +1,5 @@
 @import "../../styles/colours";
+@import "../../styles/mixins/brakpoint";
 
 .section-wrapper {
   margin: 0;
@@ -13,7 +14,24 @@
     padding: 40px 0;
   }
   .section {
-    width: 60%;
+    width: 90%;
     margin: auto;
+  }
+}
+
+@include breakpoint($tablet) {
+  .section-wrapper {
+    .section {
+      width: 80%;
+      margin: auto;
+    }
+  }
+}
+
+@include breakpoint($desktop) {
+  .section-wrapper {
+    .section {
+      width: 60%;
+    }
   }
 }
