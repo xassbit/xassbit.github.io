@@ -4,7 +4,7 @@ import Tab from "../../elements/tab/Tab";
 import P from "../../elements/p/P";
 
 const Chronology: React.StatelessComponent = () =>
-    <Section bottomPadding>
+    <Section>
         <Tab title="Formative Years - 1991 to 2009">
             <P>I was born in October 6th 1991 in Montemor-o-Novo, Portugal.</P>
             <P>In 1996 I started classical percussion education

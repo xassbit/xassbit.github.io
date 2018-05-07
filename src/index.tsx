@@ -8,6 +8,7 @@ import Intro from "./blocks/intro/Intro";
 import "./index.scss";
 import Footer from "./blocks/footer/Footer";
 import Chronology from "./blocks/chronology/Chronology";
+import Contact from "./elements/contact/Contact";
 
 const App: React.StatelessComponent = () =>
     <>
@@ -20,6 +21,9 @@ const App: React.StatelessComponent = () =>
             </section>
             <section id="chronology">
                 <Chronology/>
+            </section>
+            <section id="contact">
+                <Contact/>
             </section>
         </article>
         <footer>
