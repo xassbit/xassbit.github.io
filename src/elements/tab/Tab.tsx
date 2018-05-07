@@ -28,6 +28,10 @@ class Tab extends React.Component<TabProps, TabState> {
         return <div className="tab">
             <div className="tab-header" onClick={this.handleClick}>
                 <h3>{this.props.title}</h3>
+                <div className={`cross${this.state.open ? " open" : ""}`}>
+                    <div className="cross-1"/>
+                    <div className="cross-2"/>
+                </div>
             </div>
             <div className={`tab-body${this.state.open ? " open" : ""}`}>
                 <div className="tab-content">

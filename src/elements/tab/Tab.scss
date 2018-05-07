@@ -9,8 +9,39 @@
     border: 0 solid $light-purple;
     border-bottom-width: 10px;
     cursor: pointer;
+    display: flex;
+
     h3 {
       line-height: 0;
+      display: inline-block;
+      width: 95%;
+    }
+
+    .cross {
+      display: inline-block;
+      margin-top: 5px;
+      transform: rotate(45deg);
+      transition: transform .2s ease-in-out;
+
+      &.open {
+        transform: rotate(0deg);
+      }
+
+      [class^=cross-] {
+        height: 30px;
+        width: 4px;
+        background-color: $light-purple;
+        border-radius: 2px;
+        transform: rotate(45deg);
+        display: inline-block;
+      }
+      .cross-1 {
+        transform: rotate(45deg);
+      }
+      .cross-2 {
+        transform: rotate(-45deg);
+        margin-left: -4px;
+      }
     }
   }
   .tab-body {
