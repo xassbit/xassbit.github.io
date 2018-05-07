@@ -1,3 +1,15 @@
-p.important {
-  font-weight: normal;
+@import "../../styles/colours";
+
+p.paragraph {
+  a {
+    color: $dark-purple;
+
+    &:visited {
+      color: $dark-purple;
+    }
+  }
+
+  p.important {
+    font-weight: normal;
+  }
 }

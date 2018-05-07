@@ -6,6 +6,6 @@ interface PProps {
 }
 
 const P: React.StatelessComponent<PProps> = ({children, important}) =>
-    <p className={`${important ? "important" : ""}`}>{children}</p>;
+    <p className={`paragraph ${important ? "important" : ""}`}>{children}</p>;
 
 export default P;
