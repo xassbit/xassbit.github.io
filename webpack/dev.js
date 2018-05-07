@@ -22,12 +22,12 @@ module.exports = {
     output: {
         filename: '[name].[hash].bundle.js',
         chunkFilename: "[name].[chunkhash].chunk.js",
-        path: path.resolve(__dirname, 'docs'),
+        path: path.resolve(__dirname, '../docs'),
         publicPath: '/',
     },
     devtool: false,
     plugins: [
-        new CleanWebpackPlugin(['docs']),
+        new CleanWebpackPlugin(['../docs']),
         extractSass,
         new HtmlWebpackPlugin({
             title: 'Daniel Matias Ferrer',
@@ -73,7 +73,7 @@ module.exports = {
         ]
     },
     devServer: {
-        contentBase: path.join(__dirname, 'docs'),
+        contentBase: path.join(__dirname, '../docs'),
         compress: true,
         port: 9876,
         historyApiFallback: true,
