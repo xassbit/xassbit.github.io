@@ -37,8 +37,8 @@ const Chronology: React.StatelessComponent = () =>
             <P important>Together with Paulo I've released <a href="https://www.youtube.com/watch?v=isCAWqEle0c">
                 an album</a>, played regularly all throughout
                 Portugal and participated in the Free Jazz en Argentina festival
-                in Buenos Aires, where we recorded
-                <a href="https://www.youtube.com/watch?v=_CWuW2OvvN0">a second album with local musicians</a>.</P>
+                in Buenos Aires, where we recorded <a href="https://www.youtube.com/watch?v=_CWuW2OvvN0">
+                    a second album with local musicians</a>.</P>
         </Tab>
         <Tab title="Physics in Nijmegen"
              open
@@ -53,8 +53,8 @@ const Chronology: React.StatelessComponent = () =>
         </Tab>
         <Tab title="Solo Years"
              subTitle="2013 to 2016">
-            <P important>I pursued my work in video production, having created
-                <a href="https://www.youtube.com/watch?v=Nvx9DflRec4">the music
+            <P important>I pursued my work in video production, having
+                created <a href="https://www.youtube.com/watch?v=Nvx9DflRec4">the music
                     video Arritmia Aritmética</a> for band A-nimal and co-produced the ICPS 2014 video diaries.</P>
             <P important>I launched the company Controlled Flame, to support my freelance work, and Arnhem Drums
                 (later rebranded as <a href="https://jamwithhumans.com">Jam With Humans</a> lessons)
