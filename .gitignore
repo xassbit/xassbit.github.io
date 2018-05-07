@@ -1,13 +1,34 @@
-### Python template
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-var/
-venv/
-node_modules
-.npm
-.idea
+### macOS
 .DS_Store
+
+### Node
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage
+node_modules/
+
+### JetBrains
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# Compilation
+src/**/*.map
+src/**/*.js

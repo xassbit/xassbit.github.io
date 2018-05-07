@@ -1,0 +1,8 @@
+@import "mixins/font-face";
+
+@include font-face("Quicksand", "../fonts/QuicksandBold-Regular", 700, normal, eot woff2 woff svg ttf);
+@include font-face("Quicksand", "../fonts/QuicksandBoldOblique-Regular", 700, oblique, eot woff2 woff svg ttf);
+@include font-face("Quicksand", "../fonts/QuicksandBook-Regular", 500, normal, eot woff2 woff svg ttf);
+@include font-face("Quicksand", "../fonts/QuicksandBookOblique-Regular", 500, oblique, eot woff2 woff svg ttf);
+@include font-face("Quicksand", "../fonts/QuicksandLight-Regular", 300, normal, eot woff2 woff svg ttf);
+@include font-face("Quicksand", "../fonts/QuicksandLightOblique-Regular", 300, oblique, eot woff2 woff svg ttf);

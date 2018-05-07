@@ -1,0 +1,60 @@
+@import "../../styles/colours";
+@import "../../styles/mixins/breakpoint";
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  .header-image {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    img {
+      max-width: 50%;
+    }
+  }
+  .header-title {
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+    h1 {
+      font-weight: normal;
+    }
+    h2 {
+      font-weight: lighter;
+      font-style: oblique;
+    }
+  }
+}
+
+@include breakpoint($tablet) {
+  .header-wrapper {
+    flex-wrap: nowrap;
+    text-align: left;
+    .header-image {
+      width: 20%;
+      padding: 10px 0;
+      img {
+        max-width: 100%;
+      }
+    }
+    .header-title {
+      padding: 0 15px;
+    }
+  }
+}
+
+@include breakpoint($desktop) {
+  .header-wrapper {
+    .header-image {
+      width: 30%;
+      padding: 0;
+      img {
+        max-width: 100%;
+      }
+    }
+    .header-title {
+      padding: 15px 30px;
+    }
+  }
+}

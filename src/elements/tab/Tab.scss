@@ -1,0 +1,78 @@
+@import "../../styles/colours";
+
+.tab {
+  .tab-header {
+    background-color: $dark-purple;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border: 0 solid $light-purple;
+    border-bottom-width: 10px;
+    cursor: pointer;
+    display: flex;
+
+    .tab-header-text {
+      width: 93%;
+      display: inline-block;
+
+      h3 {
+        line-height: 30px;
+        width: 100%;
+        margin: 0;
+      }
+
+      p.tab-sub-title {
+        margin: 0;
+      }
+    }
+
+    .cross {
+      display: inline-block;
+      margin-top: 5px;
+      transform: rotate(45deg);
+
+      [class^=cross-] {
+        height: 30px;
+        width: 4px;
+        background-color: $light-purple;
+        border-radius: 2px;
+        display: inline-block;
+      }
+      .cross-1 {
+        transform: rotate(45deg);
+        transition: transform .2s ease-in-out;
+
+        &.open {
+          transform: rotate(90deg);
+        }
+      }
+      .cross-2 {
+        transform: rotate(-45deg);
+        margin-left: -4px;
+        transition: transform .2s ease-in-out;
+
+        &.open {
+          transform: rotate(0deg);
+        }
+      }
+    }
+  }
+
+  .tab-body {
+    margin: 0;
+    background-color: $light-purple;
+    max-height: 0;
+    transition: max-height .4s ease-in;
+    overflow: hidden;
+
+    &.open {
+      height: auto;
+      max-height: 1000px;
+      transition: max-height .4s ease-in;
+    }
+
+    .tab-content {
+      padding: 10px;
+    }
+  }
+}
