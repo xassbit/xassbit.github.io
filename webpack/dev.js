@@ -1,7 +1,6 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
 
 const extractSass = new ExtractTextPlugin({
@@ -22,12 +21,11 @@ module.exports = {
     output: {
         filename: '[name].[hash].bundle.js',
         chunkFilename: "[name].[chunkhash].chunk.js",
-        path: path.resolve(__dirname, '../docs'),
+        path: path.resolve(__dirname, '../'),
         publicPath: '/',
     },
     devtool: false,
     plugins: [
-        new CleanWebpackPlugin(['../docs']),
         extractSass,
         new HtmlWebpackPlugin({
             title: 'Daniel Matias Ferrer',
@@ -73,7 +71,7 @@ module.exports = {
         ]
     },
     devServer: {
-        contentBase: path.join(__dirname, '../docs'),
+        contentBase: path.join(__dirname, '../'),
         compress: true,
         port: 9876,
         historyApiFallback: true,
