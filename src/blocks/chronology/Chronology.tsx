@@ -8,8 +8,8 @@ const Chronology: React.StatelessComponent = () =>
         <Tab title="Formative Years"
              subTitle="1991 to 2009">
             <P>I was born in October 6th 1991 in Montemor-o-Novo, Portugal.</P>
-            <P>In 1996 I started classical percussion education
-                at the now extinct Academia de Música Eborense in Évora.</P>
+            <P>In 1996 I started my musical education in classical percussion education
+                at the Academia de Música Eborense in Évora.</P>
             <P>On my last year of high school I founded the music store A Baqueta
                 with the help from my family.</P>
             <P important>In 2009 I graduated from secondary school as the

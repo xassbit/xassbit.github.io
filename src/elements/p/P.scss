@@ -10,7 +10,7 @@ p.paragraph {
     }
   }
 
-  p.important {
+  &.important {
     font-weight: normal;
   }
 }
