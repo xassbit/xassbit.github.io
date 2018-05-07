@@ -18,21 +18,23 @@ const Chronology: React.StatelessComponent = () =>
         <Tab title="Physics in Porto"
              open
              subTitle="2009 to 2012">
-            <P>In September of 2009 I moved from my hometown to study Physics at the University of Porto.</P>
-            <P>I became envolved with Physis, the Portuguese Association of Physics Students,
+            <P important>In September of 2009 I moved from my hometown to study Physics at the
+                University of Porto.</P>
+            <P>I became envolved with the Portuguese Association of Physics Students
                 where I've served as president of the directive committee and the head organizer
                 of the 2011 and 2012 editions of the National Meeting of Physics Students.</P>
-            <P>During my study of Physics I came in contact with solving problems with Python,
-                as it was required for several courses during the whole course.</P>
-            <P>In 2013 I completed the BSc in Physics.</P>
+            <P>During my study of Physics I came in contact with programming,
+                having worked on solving problems with Python.</P>
+            <P important>In 2013 I completed the BSc in Physics.</P>
         </Tab>
         <Tab title="Music in Porto"
              subTitle="2009 to 2012">
-            <P>Besides studying Physics, I've also also became a regular performer and music teacher in Porto.</P>
-            <P>Created stage performances as a solo artist for the now defunct Literary Club of Porto.</P>
-            <P>Joined sax player Paulo Alexandre Jorge to create the free jazz duo Bella Damião and
-                joined Paulo's music education project Carl Orff Projecto as a music teacher.</P>
-            <P>As Bella Damião we released a first album as a duo, played very reguarly
+            <P>While living in Porto I created stage performances as a solo artist
+                for the now defunct Literary Club of Porto.</P>
+            <P>Besides my solo work, I also joined sax player Paulo Alexandre Jorge to
+                create the free jazz duo Bella Damião and
+                started working as a music teacher at Carl Orff Projecto.</P>
+            <P important>As Bella Damião we released an album as a duo, played regularly
                 in Portugal and participated in the Free Jazz en Argentina festival
                 in Buenos Aires, where we recorded a second album with local musicians</P>
         </Tab>
@@ -41,50 +43,52 @@ const Chronology: React.StatelessComponent = () =>
              subTitle="20012 to 2013">
             <P>In 2013 I moved to the Netherlands for a one year stay at Radboud University Nijmegen
                 to study theoretical particle physics under the ERASMUS protocol.</P>
-            <P>I was introduced to problem-solving in C and C++ during my stay in Nijmegen.</P>
-            <P>During that time I've experimented with other venues of artistic production:
-                started offering music production and graphic design services on Fiverr.com and
+            <P important>During these studies, I was introduced to problem-solving in C and C++.</P>
+            <P>In the same year I've started experimented with other venues of artistic production. As
+                a result, I begun offering music production and graphic design services on Fiverr.com and
                 shot a web series documenting my life as an Erasmus student in the Netherlands.</P>
         </Tab>
         <Tab title="Solo Years"
              subTitle="2013 to 2016">
-            <P>In 2013 I started working more seriously in video production, having created the music
+            <P important>I pursued my work in video production, having created the music
                 video Arritmia Aritmética for band A-nimal and co-produced the ICPS 2014 video diaries.</P>
-            <P>Worked as a freelancer under the company Controlled Flame and as a music teacher under
-                the company Arnhem Drums (later rebranded as Jam With Humans lessons)</P>
-            <P>Discovered the podcasting world, which lead to starting to learn task,
+            <P important>I launched the company Controlled Flame, to support my freelance work, and Arnhem Drums
+                (later rebranded as Jam With Humans lessons) through which I offered music lessons.</P>
+            <P>In 2013 I discovered the podcasting universe, which lead to learning task,
                 project and time management methodologies as well as exploring workflow
                 automation using iOS and Mac OS - which ultimately lead to starting to learn iOS
-                and later web development.</P>
+                and web development.</P>
         </Tab>
         <Tab title="Consulting"
              open
              subTitle="2016 to 2017">
-            <P>In May 2016 started to work for the consulting agency Newcraft, in the position of junior PHP
-                developer.</P>
-            <P>Later the same year briefly became the lead developer for the online store of one of the
+            <P important>In May 2016 I started to work for the consulting agency Newcraft,
+                in the position of junior PHP developer.</P>
+            <P>Later the same year I briefly became the lead developer for an online store of one of the
                 largest telecom companies in the Netherlands</P>
-            <P>At the end of 2016 I was moved to the data science team, to help developing a
+            <P important>At the end of 2016 I moved to the data science team, to help developing a
                 real-time marketing project in Scala, Apache Spark and Cassandra</P>
             <P>Besides having worked for multiple clients with different technology needs and stacks,
-                gave internal lessons on Python and introduced the team to Django</P>
+                I gave lessons on Python to my colleagues and introduced my team to Django</P>
         </Tab>
         <Tab title="In-house developer"
              open
              subTitle="from 2017">
-            <P>In May 2017 started to work for the tour operator srprs.me as a backend developer.</P>
-            <P>Slowly started to take the role of solutions architect, having migrated our projects
-                to Webpack and introduced the team to React and Redux for the front-end,
-                and a REST framework for the frontend. A new website with this new tech stack was
-                deployed to production in April of 2018.</P>
+            <P important>In May 2017 I started to work for the tour operator srprs.me as a Django developer.</P>
+            <P>I helped the company by migrating our projects to Webpack and by introducing the team to
+                a new tech stack featuring a backend powered by Django Rest Framework and a frontend powered by
+                React and Redux. A new website build on this stack was deployed to production in April of 2018.</P>
         </Tab>
         <Tab title="Improvisational music"
              subTitle="from 2014">
-            <P>From 2014 onwards I’ve focused only on not only playing but also teaching and
+            <P>From 2014 onwards I’ve focused not only on playing but also teaching and
                 composing improvisational music.</P>
-            <P>Faded out individual music lessons and faded in workshops on improvisation.</P>
-            <P>CD “Not That Different”, released on March 2017, with Paulo Alexandre Jorge.</P>
-            <P>Presented the Jam With Humans Orchestra live in concert, starting in June 2017.</P>
+            <P>With Jam With Humans, I eventually faded out individual music lessons and replaced them by
+                workshops on improvisation and creativity.</P>
+            <P important>In March 2017 I've released the album “Not That Different”,
+                featuring Paulo Alexandre Jorge.</P>
+            <P important>Starting in June 2017 I've been performing live with the Jam With Humans Orchestra, as an
+                offshoot of the workshops.</P>
         </Tab>
     </Section>;
 
