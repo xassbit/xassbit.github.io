@@ -3,6 +3,7 @@ import "./Tab.scss";
 
 interface TabProps {
     title: string;
+    subTitle: string;
     open?: boolean;
 }
 
@@ -27,10 +28,13 @@ class Tab extends React.Component<TabProps, TabState> {
     public render() {
         return <div className="tab">
             <div className="tab-header" onClick={this.handleClick}>
-                <h3>{this.props.title}</h3>
-                <div className={`cross${this.state.open ? " open" : ""}`}>
-                    <div className="cross-1"/>
-                    <div className="cross-2"/>
+                <div className="tab-header-text">
+                    <h3>{this.props.title}</h3>
+                    <p className="tab-sub-title">{this.props.subTitle}</p>
+                </div>
+                <div className="cross">
+                    <div className={`cross-1${this.state.open ? " open" : ""}`}/>
+                    <div className={`cross-2${this.state.open ? " open" : ""}`}/>
                 </div>
             </div>
             <div className={`tab-body${this.state.open ? " open" : ""}`}>
