@@ -8,7 +8,7 @@ import Intro from "./blocks/intro/Intro";
 import "./index.scss";
 import Footer from "./blocks/footer/Footer";
 import Chronology from "./blocks/chronology/Chronology";
-import Contact from "./elements/contact/Contact";
+import Contact from "./blocks/contact/Contact";
 
 const App: React.StatelessComponent = () =>
     <>
