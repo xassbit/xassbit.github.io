@@ -1,4 +1,5 @@
 // Mixin adapted from the original created by Jermaine (https://github.com/dviate)
+// https://github.com/dviate/html5-boilerplate/blob/master/src/scss/helpers/mixins/_font-face.scss
 
 @function str-replace($string, $search, $replace: "") {
   $index: str-index($string, $search);
