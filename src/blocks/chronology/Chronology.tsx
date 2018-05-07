@@ -30,13 +30,15 @@ const Chronology: React.StatelessComponent = () =>
         <Tab title="Music in Porto"
              subTitle="2009 to 2012">
             <P>While living in Porto I created stage performances as a solo artist
-                for the now defunct Literary Club of Porto.</P>
+                for the Literary Club of Porto.</P>
             <P>Besides my solo work, I also joined sax player Paulo Alexandre Jorge to
                 create the free jazz duo Bella Damião and
                 started working as a music teacher at Carl Orff Projecto.</P>
-            <P important>As Bella Damião we released an album as a duo, played regularly
-                in Portugal and participated in the Free Jazz en Argentina festival
-                in Buenos Aires, where we recorded a second album with local musicians</P>
+            <P important>Together with Paulo I've released <a href="https://www.youtube.com/watch?v=isCAWqEle0c">
+                an album</a>, played regularly all throughout
+                Portugal and participated in the Free Jazz en Argentina festival
+                in Buenos Aires, where we recorded
+                <a href="https://www.youtube.com/watch?v=_CWuW2OvvN0">a second album with local musicians</a>.</P>
         </Tab>
         <Tab title="Physics in Nijmegen"
              open
@@ -46,14 +48,17 @@ const Chronology: React.StatelessComponent = () =>
             <P important>During these studies, I was introduced to problem-solving in C and C++.</P>
             <P>In the same year I've started experimented with other venues of artistic production. As
                 a result, I begun offering music production and graphic design services on Fiverr.com and
-                shot a web series documenting my life as an Erasmus student in the Netherlands.</P>
+                shot <a href="https://www.youtube.com/watch?v=Ol-YuS183D8&t=81s">a web series</a>
+                documenting my life as an Erasmus student in the Netherlands.</P>
         </Tab>
         <Tab title="Solo Years"
              subTitle="2013 to 2016">
-            <P important>I pursued my work in video production, having created the music
-                video Arritmia Aritmética for band A-nimal and co-produced the ICPS 2014 video diaries.</P>
+            <P important>I pursued my work in video production, having created
+                <a href="https://www.youtube.com/watch?v=Nvx9DflRec4">the music
+                    video Arritmia Aritmética</a> for band A-nimal and co-produced the ICPS 2014 video diaries.</P>
             <P important>I launched the company Controlled Flame, to support my freelance work, and Arnhem Drums
-                (later rebranded as Jam With Humans lessons) through which I offered music lessons.</P>
+                (later rebranded as <a href="https://jamwithhumans.com">Jam With Humans</a> lessons)
+                through which I offered music lessons.</P>
             <P>In 2013 I discovered the podcasting universe, which lead to learning task,
                 project and time management methodologies as well as exploring workflow
                 automation using iOS and Mac OS - which ultimately lead to starting to learn iOS
@@ -81,11 +86,13 @@ const Chronology: React.StatelessComponent = () =>
         </Tab>
         <Tab title="Improvisational music"
              subTitle="from 2014">
-            <P>From 2014 onwards I’ve focused not only on playing but also teaching and
+            <P>From 2014 onwards I’ve focused not only on playing but also <a href="https://jamwithhumans.com">
+                teaching</a> and
                 composing improvisational music.</P>
             <P>With Jam With Humans, I eventually faded out individual music lessons and replaced them by
                 workshops on improvisation and creativity.</P>
-            <P important>In March 2017 I've released the album “Not That Different”,
+            <P important>In March 2017 I've released <a href="https://controlledflame.com/en/records/">
+                the album “Not That Different”</a>,
                 featuring Paulo Alexandre Jorge.</P>
             <P important>Starting in June 2017 I've been performing live with the Jam With Humans Orchestra, as an
                 offshoot of the workshops.</P>
