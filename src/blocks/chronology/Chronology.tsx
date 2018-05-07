@@ -1,7 +1,7 @@
 import * as React from "react";
+import P from "../../elements/p/P";
 import Section from "../../elements/section/Section";
 import Tab from "../../elements/tab/Tab";
-import P from "../../elements/p/P";
 
 const Chronology: React.StatelessComponent = () =>
     <Section>
@@ -19,6 +19,8 @@ const Chronology: React.StatelessComponent = () =>
             <P>I became envolved with Physis, the Portuguese Association of Physics Students,
                 where I've served as president of the directive committee and the head organizer
                 of the 2011 and 2012 editions of the National Meeting of Physics Students.</P>
+            <P>During my study of Physics I came in contact with solving problems with Python,
+                as it was required for several courses during the whole course.</P>
             <P>In 2013 I completed the BSc in Physics.</P>
         </Tab>
         <Tab title="Music in Porto - 2009 to 2012">
@@ -33,6 +35,7 @@ const Chronology: React.StatelessComponent = () =>
         <Tab title="Physics in Nijmegen - 20012 to 2013" open>
             <P>In 2013 I moved to the Netherlands for a one year stay at Radboud University Nijmegen
                 to study theoretical particle physics under the ERASMUS protocol.</P>
+            <P>I was introduced to problem-solving in C and C++ during my stay in Nijmegen.</P>
             <P>During that time I've experimented with other venues of artistic production:
                 started offering music production and graphic design services on Fiverr.com and
                 shot a web series documenting my life as an Erasmus student in the Netherlands.</P>
