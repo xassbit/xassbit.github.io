@@ -49,6 +49,7 @@
     "build": "webpack --progress --colors --env=prod --watch"
   },
   "dependencies": {
+    "clean-webpack-plugin": "^0.1.19",
     "stylelint": "^9.2.0"
   }
 }

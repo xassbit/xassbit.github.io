@@ -1,6 +1,7 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
 
 const extractSass = new ExtractTextPlugin({
@@ -26,6 +27,7 @@ module.exports = {
     devtool: false,
     plugins: [
         extractSass,
+        new CleanWebpackPlugin(['build']),
         new HtmlWebpackPlugin({
             title: 'Daniel Matias Ferrer',
             template: 'src/index.html'
