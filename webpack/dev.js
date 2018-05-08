@@ -27,7 +27,7 @@ module.exports = {
     devtool: false,
     plugins: [
         extractSass,
-        new CleanWebpackPlugin(['build']),
+        new CleanWebpackPlugin(['../build']),
         new HtmlWebpackPlugin({
             title: 'Daniel Matias Ferrer',
             template: 'src/index.html'
