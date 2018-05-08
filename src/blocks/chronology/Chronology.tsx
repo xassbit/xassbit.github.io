@@ -48,8 +48,8 @@ const Chronology: React.StatelessComponent = () =>
             <P important>During these studies, I was introduced to problem-solving in C and C++.</P>
             <P>In the same year I've started experimented with other venues of artistic production. As
                 a result, I begun offering music production and graphic design services on Fiverr.com and
-                shot <a href="https://www.youtube.com/watch?v=Ol-YuS183D8&t=81s">a web series</a>
-                documenting my life as an Erasmus student in the Netherlands.</P>
+                shot <a href="https://www.youtube.com/watch?v=Ol-YuS183D8&t=81s">a web series</a> documenting
+                my life as an Erasmus student in the Netherlands.</P>
         </Tab>
         <Tab title="Solo Years"
              subTitle="2013 to 2016">
