@@ -60,7 +60,7 @@ const Chronology: React.StatelessComponent = () =>
             <P important>I kept pursuing work in video production, having
                 created <a href="https://www.youtube.com/watch?v=Nvx9DflRec4">the music
                     video Arritmia Aritmética</a> for band A-nimal and
-                co-produced <a href="https://www.youtube.com/watch?v=NPdqXGMYZK4&t=168s">the
+                co-produced <a href="https://www.youtube.com/watch?v=NPdqXGMYZK4">the
                     ICPS 2014 video diaries</a>.</P>
             <P important>I launched the company Controlled Flame, to support my freelance work, and Arnhem Drums
                 (later rebranded as <a href="https://jamwithhumans.com">Jam With Humans</a> lessons)
