@@ -10,9 +10,9 @@ const Chronology: React.StatelessComponent = () =>
              subTitle="1991 to 2009"
              tabKey={TabKey.formativeYears}>
             <P>I was born in October 6th 1991 in Montemor-o-Novo, Portugal.</P>
-            <P>In 1996 I started my musical education in classical percussion education
+            <P>In 1996 I started my musical education in classical percussion
                 at the Academia de Música Eborense in Évora.</P>
-            <P>On my last year of high school I founded the music store A Baqueta
+            <P>During the last year of high school I opened the music store A Baqueta
                 with the help from my family.</P>
             <P important>In 2009 I graduated from secondary school as the
                 highest graded student from the Sciences and Technologies course.</P>
@@ -25,7 +25,7 @@ const Chronology: React.StatelessComponent = () =>
             <P>I became envolved with the Portuguese Association of Physics Students
                 where I've served as president of the directive committee and the head organizer
                 of the 2011 and 2012 editions of the National Meeting of Physics Students.</P>
-            <P>During my study of Physics I came in contact with programming,
+            <P>While studying Physics I came in contact with programming,
                 having worked on solving problems with Python.</P>
             <P important>In 2013 I completed the BSc in Physics.</P>
         </Tab>
@@ -34,9 +34,9 @@ const Chronology: React.StatelessComponent = () =>
              tabKey={TabKey.musicPorto}>
             <P>While living in Porto I created stage performances as a solo artist
                 for the Literary Club of Porto.</P>
-            <P>Besides my solo work, I also joined sax player Paulo Alexandre Jorge to
+            <P>I also joined sax player Paulo Alexandre Jorge to
                 create the free jazz duo Bella Damião and
-                started working as a music teacher at Carl Orff Projecto.</P>
+                worked as a music teacher at Carl Orff Projecto.</P>
             <P important>Together with Paulo I've released <a href="https://www.youtube.com/watch?v=isCAWqEle0c">
                 an album</a>, played regularly all throughout
                 Portugal and participated in the Free Jazz en Argentina festival
@@ -49,7 +49,7 @@ const Chronology: React.StatelessComponent = () =>
             <P>In 2013 I moved to the Netherlands for a one year stay at Radboud University Nijmegen
                 to study theoretical particle physics under the ERASMUS protocol.</P>
             <P important>During these studies, I was introduced to problem-solving in C and C++.</P>
-            <P>In the same year I've started experimented with other venues of artistic production. As
+            <P>In the same year I've started experimenting with other venues of artistic production. As
                 a result, I begun offering music production and graphic design services on Fiverr.com and
                 shot <a href="https://www.youtube.com/watch?v=Ol-YuS183D8&t=81s">a web series</a> documenting
                 my life as an Erasmus student in the Netherlands.</P>
@@ -57,9 +57,11 @@ const Chronology: React.StatelessComponent = () =>
         <Tab title="Solo Years"
              subTitle="2013 to 2016"
              tabKey={TabKey.soloYears}>
-            <P important>I pursued my work in video production, having
+            <P important>I kept pursuing work in video production, having
                 created <a href="https://www.youtube.com/watch?v=Nvx9DflRec4">the music
-                    video Arritmia Aritmética</a> for band A-nimal and co-produced the ICPS 2014 video diaries.</P>
+                    video Arritmia Aritmética</a> for band A-nimal and
+                co-produced <a href="https://www.youtube.com/watch?v=NPdqXGMYZK4&t=168s">the
+                    ICPS 2014 video diaries</a>.</P>
             <P important>I launched the company Controlled Flame, to support my freelance work, and Arnhem Drums
                 (later rebranded as <a href="https://jamwithhumans.com">Jam With Humans</a> lessons)
                 through which I offered music lessons.</P>
@@ -77,7 +79,7 @@ const Chronology: React.StatelessComponent = () =>
                 largest telecom companies in the Netherlands.</P>
             <P important>At the end of 2016 I moved to the data science team, to help developing a
                 real-time marketing project in Scala, Apache Spark and Cassandra.</P>
-            <P>Besides having worked for multiple clients with different technology needs and stacks,
+            <P>Besides having worked for multiple clients with different technological needs,
                 I gave lessons on Python to my colleagues and introduced my team to Django.</P>
         </Tab>
         <Tab title="In-house developer"
@@ -94,12 +96,12 @@ const Chronology: React.StatelessComponent = () =>
             <P>From 2014 onwards I’ve focused not only on playing but also <a href="https://jamwithhumans.com">
                 teaching</a> and
                 composing improvisational music.</P>
-            <P>With Jam With Humans, I eventually faded out individual music lessons and replaced them by
+            <P>With Jam With Humans I faded out individual music lessons and replaced them by
                 workshops on improvisation and creativity.</P>
             <P important>In March 2017 I've released <a href="https://controlledflame.com/en/records/">
                 the album “Not That Different”</a>,
                 featuring Paulo Alexandre Jorge.</P>
-            <P important>Starting in June 2017 I've been performing live with the Jam With Humans Orchestra, as an
+            <P important>Starting in June 2017 I've been performing live with the Jam With Humans Orchestra - an
                 offshoot of the workshops.</P>
         </Tab>
     </Section>;
