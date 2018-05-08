@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
 const extractSass = new ExtractTextPlugin({
-    filename: '[name].[hash].bundle.css',
+    filename: 'build/[name].[hash].bundle.css',
     ignoreOrder: true,
     allChunks: true,
     publicPath: './src'
@@ -19,8 +19,7 @@ module.exports = {
     },
     entry: ['babel-polyfill', './src/index.tsx'],
     output: {
-        filename: '[name].[hash].bundle.js',
-        chunkFilename: "[name].[chunkhash].chunk.js",
+        filename: 'build/[name].[hash].bundle.js',
         path: path.resolve(__dirname, '../'),
         publicPath: '/',
     },
@@ -64,7 +63,10 @@ module.exports = {
                 use: [
                     {
                         loader: 'url-loader',
-                        options: {limit: 1000}
+                        options: {
+                            limit: 1000,
+                            outputPath: 'build/',
+                        },
                     }
                 ]
             },
