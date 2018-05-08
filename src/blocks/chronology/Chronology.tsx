@@ -70,11 +70,11 @@ const Chronology: React.StatelessComponent = () =>
             <P important>In May 2016 I started to work for the consulting agency Newcraft,
                 in the position of junior PHP developer.</P>
             <P>Later the same year I briefly became the lead developer for an online store of one of the
-                largest telecom companies in the Netherlands</P>
+                largest telecom companies in the Netherlands.</P>
             <P important>At the end of 2016 I moved to the data science team, to help developing a
-                real-time marketing project in Scala, Apache Spark and Cassandra</P>
+                real-time marketing project in Scala, Apache Spark and Cassandra.</P>
             <P>Besides having worked for multiple clients with different technology needs and stacks,
-                I gave lessons on Python to my colleagues and introduced my team to Django</P>
+                I gave lessons on Python to my colleagues and introduced my team to Django.</P>
         </Tab>
         <Tab title="In-house developer"
              open
