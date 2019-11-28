@@ -6,7 +6,7 @@ import {PersistGate} from "redux-persist/integration/react";
 import Index from "Chronology";
 import Contact from "Contact";
 import Footer from "Footer";
-import Header from "./blocks/header/Header";
+import Header from "Header";
 import Intro from "./blocks/intro/Intro";
 import {store} from "./data";
 import "./index.scss";
