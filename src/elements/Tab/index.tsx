@@ -1,7 +1,7 @@
 import * as React from "react";
 import {PropsWithChildren} from "react";
 import {connect} from "react-redux";
-import {AppState, TabKey, toggleTab} from "../../data";
+import {AppState, TabKey, toggleTab} from "src/data";
 import * as style from "./style.scss";
 
 interface TabStateProps {

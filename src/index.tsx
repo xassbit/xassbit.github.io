@@ -3,12 +3,12 @@ import * as ReactDOM from "react-dom";
 import {Provider} from "react-redux";
 import {persistStore} from "redux-persist";
 import {PersistGate} from "redux-persist/integration/react";
-import Index from "Chronology";
-import Contact from "Contact";
-import Footer from "Footer";
-import Header from "Header";
-import Intro from "Intro";
-import {store} from "./data";
+import Index from "src/blocks/Chronology";
+import Contact from "src/blocks/Contact";
+import Footer from "src/blocks/Footer";
+import Header from "src/blocks/Header";
+import Intro from "src/blocks/Intro";
+import {store} from "src/data";
 import "./index.scss";
 
 const App: React.FunctionComponent = () =>

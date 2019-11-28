@@ -2,7 +2,7 @@ import * as React from "react";
 import P from "src/elements/P";
 import Section from "src/elements/Section";
 import Tab from "src/elements/Tab";
-import {TabKey} from "../../data";
+import {TabKey} from "src/data";
 
 const Chronology: React.FunctionComponent = () =>
     <Section>
