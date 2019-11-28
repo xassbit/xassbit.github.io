@@ -8,7 +8,7 @@ interface Props {
 
 const Section: React.FunctionComponent<Props> = ({children, purple, bottomPadding}) =>
     <div className={[style.sectionWrapper, purple ? style.purple : "", bottomPadding ? style.bottomPadding : ""].join(" ")}>
-        <div className="section">{children}</div>
+        <div className={style.section}>{children}</div>
     </div>;
 
 export default Section;
