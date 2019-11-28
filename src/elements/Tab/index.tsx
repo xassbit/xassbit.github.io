@@ -2,7 +2,7 @@ import * as React from "react";
 import {PropsWithChildren} from "react";
 import {connect} from "react-redux";
 import {AppState, TabKey, toggleTab} from "../../data";
-import "./Tab.scss";
+import * as style from "./style.scss";
 
 interface TabStateProps {
     open: boolean;
@@ -20,19 +20,19 @@ interface TabOwnProps {
 
 const Tab: React.FunctionComponent<TabStateProps & TabDispatchProps & TabOwnProps> =
     ({children, title, subTitle, open, onClick}) =>
-    <div className="tab">
-        <div className="tab-header" onClick={onClick}>
-            <div className="tab-header-text">
+    <div className={style.tab}>
+        <div className={style.tabHeader} onClick={onClick}>
+            <div className={style.tabHeaderText}>
                 <h3>{title}</h3>
-                <p className="tab-sub-title">{subTitle}</p>
+                <p className={style.tabSubTitle}>{subTitle}</p>
             </div>
-            <div className="cross">
-                <div className={`cross-1${open ? " open" : ""}`}/>
-                <div className={`cross-2${open ? " open" : ""}`}/>
+            <div className={style.cross}>
+                <div className={[style.cross1, open ? style.open : ""].join(" ")}/>
+                <div className={[style.cross2, open ? style.open : ""].join(" ")}/>
             </div>
         </div>
-        <div className={`tab-body${open ? " open" : ""}`}>
-            <div className="tab-content">
+        <div className={[style.tabBody, open ? style.open : ""].join(" ")}>
+            <div className={style.tabContent}>
                 {children}
             </div>
         </div>
