@@ -1,17 +1,25 @@
 import * as React from "react";
+import {PropsWithChildren} from "react";
 import {connect} from "react-redux";
 import {AppState, TabKey, toggleTab} from "../../data";
 import "./Tab.scss";
 
-interface TabProps {
-    title: string;
-    subTitle: string;
-    tabKey: TabKey;
+interface TabStateProps {
     open: boolean;
+}
+
+interface TabDispatchProps {
     onClick: () => void;
 }
 
-const Tab: React.FunctionComponent<TabProps> = ({children, title, subTitle, open, onClick}) =>
+interface TabOwnProps {
+    title: string;
+    subTitle: string;
+    tabKey: TabKey;
+}
+
+const Tab: React.FunctionComponent<TabStateProps & TabDispatchProps & TabOwnProps> =
+    ({children, title, subTitle, open, onClick}) =>
     <div className="tab">
         <div className="tab-header" onClick={onClick}>
             <div className="tab-header-text">
@@ -30,13 +38,7 @@ const Tab: React.FunctionComponent<TabProps> = ({children, title, subTitle, open
         </div>
     </div>;
 
-interface TabOwnProps {
-    title: string;
-    subTitle: string;
-    tabKey: TabKey;
-}
-
-export default connect(
+export default connect<TabStateProps, TabDispatchProps, PropsWithChildren<TabOwnProps>, AppState>(
     (state: AppState, ownProps: TabOwnProps) => ({
         open: state.tabs.indexOf(ownProps.tabKey) !== -1,
     }),
