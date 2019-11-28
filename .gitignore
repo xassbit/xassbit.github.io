@@ -32,3 +32,6 @@ node_modules/
 # Compilation
 src/**/*.map
 src/**/*.js
+
+# SCSS types
+*.scss.d.ts

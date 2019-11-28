@@ -1,6 +1,6 @@
 import * as React from "react";
-import P from "../../elements/p/P";
-import Section from "../../elements/section/Section";
+import P from "src/elements/P";
+import Section from "src/elements/Section";
 
 const Contact = () =>
     <Section bottomPadding>

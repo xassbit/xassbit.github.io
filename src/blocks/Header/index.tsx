@@ -1,16 +1,16 @@
 import * as React from "react";
 import Headshot from "../../images/headshot.png";
-import "./Header.scss";
-import Section from "../../elements/section/Section";
+import * as style from "./style.scss";
+import Section from "src/elements/Section";
 
-const Header: React.StatelessComponent = () =>
+const Header: React.FunctionComponent = () =>
     <Section purple bottomPadding>
         <header>
-            <div className="header-wrapper">
-                <div className="header-image">
-                    <img src={Headshot} alt="myheadshot"/>
+            <div className={style.headerWrapper}>
+                <div className={style.headerImage}>
+                    <img src={Headshot} alt="my headshot"/>
                 </div>
-                <div className="header-title">
+                <div className={style.headerTitle}>
                     <h1>Daniel Matias Ferrer</h1>
                     <h2>Curriculum Vitae</h2>
                 </div>
