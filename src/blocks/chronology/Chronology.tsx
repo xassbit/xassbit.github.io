@@ -1,5 +1,5 @@
 import * as React from "react";
-import P from "../../elements/p/P";
+import P from "src/elements/p";
 import Section from "../../elements/section/Section";
 import Tab from "../../elements/tab/Tab";
 import {TabKey} from "../../data";
