@@ -7,7 +7,7 @@ import Index from "Chronology";
 import Contact from "Contact";
 import Footer from "Footer";
 import Header from "Header";
-import Intro from "./blocks/intro/Intro";
+import Intro from "Intro";
 import {store} from "./data";
 import "./index.scss";
 
