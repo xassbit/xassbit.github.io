@@ -10,8 +10,8 @@ const devPlugins = [
         template: 'src/index.html',
     }),
     new MiniCssExtractPlugin({
-        filename: '[name].[hash].css',
-        chunkFilename: '[id].[hash].css',
+        filename: 'build/css/[name].[hash].css',
+        chunkFilename: 'build/css/[id].[hash].css',
     }),
     new webpack.WatchIgnorePlugin([
         /\.scss\.d\.ts$/,
@@ -23,8 +23,8 @@ const prodPlugins = [
         template: 'src/index.html',
     }),
     new MiniCssExtractPlugin({
-        filename: '[name].[hash].css',
-        chunkFilename: '[id].[hash].css',
+        filename: 'build/css/[name].[hash].css',
+        chunkFilename: 'build/css/[id].[hash].css',
     }),
     new webpack.WatchIgnorePlugin([
         /\.scss\.d\.ts$/,
@@ -40,8 +40,8 @@ module.exports = (env, argv) => {
     return ({
         entry: ['./src/index.tsx'],
         output: {
-            filename: 'build/[name].[hash].bundle.js',
-            chunkFilename: 'build/[name].[chunkhash].chunk.js',
+            filename: 'build/js/[name].[hash].bundle.js',
+            chunkFilename: 'build/js/[name].[chunkhash].chunk.js',
             path: __dirname,
             publicPath: '/',
         },
@@ -83,14 +83,14 @@ module.exports = (env, argv) => {
                     use: [
                         {
                             loader: 'url-loader',
-                            options: {limit: 1000},
+                            options: {limit: 1000, name: 'build/assets/[name].[ext]'},
                         },
                     ],
                 },
             ],
         },
         devServer: {
-            contentBase: __dirname + '/docs',
+            contentBase: __dirname,
             compress: true,
             port: 9876,
             historyApiFallback: true,
