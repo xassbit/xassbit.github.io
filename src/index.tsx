@@ -4,7 +4,7 @@ import {Provider} from "react-redux";
 import {persistStore} from "redux-persist";
 import {PersistGate} from "redux-persist/integration/react";
 import Index from "Chronology";
-import Contact from "./blocks/contact/Contact";
+import Contact from "Contact";
 import Footer from "./blocks/footer/Footer";
 import Header from "./blocks/header/Header";
 import Intro from "./blocks/intro/Intro";
