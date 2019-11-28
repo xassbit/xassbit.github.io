@@ -1,7 +1,7 @@
 import * as React from "react";
 import Headshot from "../../images/headshot.png";
 import "./Header.scss";
-import Section from "src/elements/section";
+import Section from "Section";
 
 const Header: React.FunctionComponent = () =>
     <Section purple bottomPadding>
