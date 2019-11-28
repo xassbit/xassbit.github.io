@@ -4,7 +4,7 @@ import Section from "../../elements/section/Section";
 import Tab from "../../elements/tab/Tab";
 import {TabKey} from "../../data";
 
-const Chronology: React.StatelessComponent = () =>
+const Chronology: React.FunctionComponent = () =>
     <Section>
         <Tab title="Formative Years"
              subTitle="1991 to 2009"

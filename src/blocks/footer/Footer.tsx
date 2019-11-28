@@ -2,7 +2,7 @@ import * as React from "react";
 import Section from "../../elements/section/Section";
 import "./Footer.scss";
 
-const Footer: React.StatelessComponent = () =>
+const Footer: React.FunctionComponent = () =>
     <Section purple bottomPadding>
         <div className="footer">
             <p>&copy; 2018 Daniel Matias Ferrer</p>

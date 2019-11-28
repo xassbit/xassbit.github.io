@@ -3,7 +3,7 @@ import Headshot from "../../images/headshot.png";
 import "./Header.scss";
 import Section from "../../elements/section/Section";
 
-const Header: React.StatelessComponent = () =>
+const Header: React.FunctionComponent = () =>
     <Section purple bottomPadding>
         <header>
             <div className="header-wrapper">

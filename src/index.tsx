@@ -11,7 +11,7 @@ import Intro from "./blocks/intro/Intro";
 import {store} from "./data";
 import "./index.scss";
 
-const App: React.StatelessComponent = () =>
+const App: React.FunctionComponent = () =>
     <Provider store={store}>
         <PersistGate loading={null} persistor={persistStore(store)}>
             <>

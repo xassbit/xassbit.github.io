@@ -6,7 +6,7 @@ interface SectionProps {
     bottomPadding?: boolean;
 }
 
-const Section: React.StatelessComponent<SectionProps> = ({children, purple, bottomPadding}) =>
+const Section: React.FunctionComponent<SectionProps> = ({children, purple, bottomPadding}) =>
     <div className={`section-wrapper${purple ? " purple" : ""}${bottomPadding ? " bottomPadding" : ""}`}>
         <div className="section">{children}</div>
     </div>;

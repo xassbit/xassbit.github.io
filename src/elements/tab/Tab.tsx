@@ -11,7 +11,7 @@ interface TabProps {
     onClick: () => void;
 }
 
-const Tab: React.StatelessComponent<TabProps> = ({children, title, subTitle, open, onClick}) =>
+const Tab: React.FunctionComponent<TabProps> = ({children, title, subTitle, open, onClick}) =>
     <div className="tab">
         <div className="tab-header" onClick={onClick}>
             <div className="tab-header-text">
