@@ -1,6 +1,6 @@
 import * as React from "react";
 import P from "src/elements/p";
-import Section from "../../elements/section/Section";
+import Section from "src/elements/section";
 import Tab from "../../elements/tab/Tab";
 import {TabKey} from "../../data";
 

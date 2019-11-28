@@ -1,5 +1,5 @@
 import * as React from "react";
-import Section from "../../elements/section/Section";
+import Section from "src/elements/section";
 import "./Footer.scss";
 
 const Footer: React.FunctionComponent = () =>
