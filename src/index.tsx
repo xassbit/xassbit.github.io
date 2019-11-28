@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom";
 import {Provider} from "react-redux";
 import {persistStore} from "redux-persist";
 import {PersistGate} from "redux-persist/integration/react";
-import Chronology from "./blocks/chronology/Chronology";
+import Index from "Chronology";
 import Contact from "./blocks/contact/Contact";
 import Footer from "./blocks/footer/Footer";
 import Header from "./blocks/header/Header";
@@ -23,7 +23,7 @@ const App: React.FunctionComponent = () =>
                         <Intro/>
                     </section>
                     <section id="chronology">
-                        <Chronology/>
+                        <Index/>
                     </section>
                     <section id="contact">
                         <Contact/>
