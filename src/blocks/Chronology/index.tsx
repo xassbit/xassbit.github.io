@@ -1,8 +1,8 @@
-import * as React from "react";
-import {TabKey} from "src/data";
-import P from "src/elements/P";
-import Section from "src/elements/Section";
-import Tab from "src/elements/Tab";
+import * as React from "react"
+import {TabKey} from "src/data"
+import P from "src/elements/P"
+import Section from "src/elements/Section"
+import Tab from "src/elements/Tab"
 
 const Chronology: React.FunctionComponent = () =>
     <Section>
@@ -17,9 +17,7 @@ const Chronology: React.FunctionComponent = () =>
             <P important>In 2009 I graduated from secondary school as the
                 highest graded student from the Sciences and Technologies course.</P>
         </Tab>
-        <Tab title="Physics in Porto"
-             subTitle="2009 to 2012"
-             tabKey={TabKey.physicsPorto}>
+        <Tab title="University years" subTitle="2009 to 2013" tabKey={TabKey.university}>
             <P important>In September of 2009 I moved from my hometown to study Physics at the
                 University of Porto.</P>
             <P>I became envolved with the Portuguese Association of Physics Students
@@ -28,6 +26,13 @@ const Chronology: React.FunctionComponent = () =>
             <P>While studying Physics I came in contact with programming,
                 having worked on solving problems with Python.</P>
             <P important>In 2013 I completed the BSc in Physics.</P>
+            <P>In 2012 I moved to the Netherlands for a one year stay at Radboud University Nijmegen
+                to study theoretical particle physics under the ERASMUS protocol.</P>
+            <P important>During these studies, I was introduced to problem-solving in C and C++.</P>
+            <P>In the same year I've started experimenting with other venues of artistic production. As
+                a result, I begun offering music production and graphic design services on Fiverr.com and
+                shot <a href="https://www.youtube.com/watch?v=Ol-YuS183D8">a web series</a> documenting
+                my life as an Erasmus student in the Netherlands.</P>
         </Tab>
         <Tab title="Music in Porto"
              subTitle="2009 to 2012"
@@ -42,17 +47,6 @@ const Chronology: React.FunctionComponent = () =>
                 Portugal and participated in the Free Jazz en Argentina festival
                 in Buenos Aires, where we recorded <a href="https://www.youtube.com/watch?v=_CWuW2OvvN0">
                     a second album with local musicians</a>.</P>
-        </Tab>
-        <Tab title="Physics in Nijmegen"
-             subTitle="20012 to 2013"
-             tabKey={TabKey.physicsNijmegen}>
-            <P>In 2013 I moved to the Netherlands for a one year stay at Radboud University Nijmegen
-                to study theoretical particle physics under the ERASMUS protocol.</P>
-            <P important>During these studies, I was introduced to problem-solving in C and C++.</P>
-            <P>In the same year I've started experimenting with other venues of artistic production. As
-                a result, I begun offering music production and graphic design services on Fiverr.com and
-                shot <a href="https://www.youtube.com/watch?v=Ol-YuS183D8">a web series</a> documenting
-                my life as an Erasmus student in the Netherlands.</P>
         </Tab>
         <Tab title="Solo Years"
              subTitle="2013 to 2016"
@@ -104,6 +98,6 @@ const Chronology: React.FunctionComponent = () =>
             <P important>Starting in June 2017 I've been performing live with the Jam With Humans Orchestra - an
                 offshoot of the workshops.</P>
         </Tab>
-    </Section>;
+    </Section>
 
-export default Chronology;
+export default Chronology
