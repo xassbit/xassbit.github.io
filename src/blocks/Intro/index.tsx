@@ -3,9 +3,9 @@ import Section from "src/elements/Section";
 
 const Intro = () =>
     <Section>
-        <p>Hi, I'm Daniel!</p>
-        <p>I've studied and worked in several roles in the arts and sciences.
-            Bellow you'll find a chronology of the most relevant stages of my life thus far.</p>
+        <p>Hi, I'm Daniel 👋</p>
+        <p>I'm a software developer and a stage performer.
+            Bellow you'll find a chronology of the most important stages of my life.</p>
     </Section>;
 
 export default Intro;
