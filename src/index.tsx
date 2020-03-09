@@ -1,15 +1,15 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-import {Provider} from "react-redux";
-import {persistStore} from "redux-persist";
-import {PersistGate} from "redux-persist/integration/react";
-import Index from "src/blocks/Chronology";
-import Contact from "src/blocks/Contact";
-import Footer from "src/blocks/Footer";
-import Header from "src/blocks/Header";
-import Intro from "src/blocks/Intro";
-import {store} from "src/data";
-import "./index.scss";
+import * as React from "react"
+import * as ReactDOM from "react-dom"
+import {Provider} from "react-redux"
+import {persistStore} from "redux-persist"
+import {PersistGate} from "redux-persist/integration/react"
+import Chronology from "src/blocks/Chronology"
+import Contact from "src/blocks/Contact"
+import Footer from "src/blocks/Footer"
+import Header from "src/blocks/Header"
+import Intro from "src/blocks/Intro"
+import {store} from "src/data"
+import "./index.scss"
 
 const App: React.FunctionComponent = () =>
     <Provider store={store}>
@@ -23,7 +23,7 @@ const App: React.FunctionComponent = () =>
                         <Intro/>
                     </section>
                     <section id="chronology">
-                        <Index/>
+                        <Chronology/>
                     </section>
                     <section id="contact">
                         <Contact/>
@@ -34,8 +34,8 @@ const App: React.FunctionComponent = () =>
                 </footer>
             </>
         </PersistGate>
-    </Provider>;
+    </Provider>
 
 ReactDOM.render(
     <App/>,
-    document.getElementById("content"));
+    document.getElementById("content"))
