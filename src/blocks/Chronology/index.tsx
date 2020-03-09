@@ -1,8 +1,8 @@
 import * as React from "react";
+import {TabKey} from "src/data";
 import P from "src/elements/P";
 import Section from "src/elements/Section";
 import Tab from "src/elements/Tab";
-import {TabKey} from "src/data";
 
 const Chronology: React.FunctionComponent = () =>
     <Section>
