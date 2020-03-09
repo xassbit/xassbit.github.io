@@ -22,7 +22,7 @@ const Chronology: React.FunctionComponent = () =>
                 Porto.</P>
             <P>I served as president of the directive committee of the Portuguese Association of Physics Students, as
                 well as head organizer of the 2011 and 2012 editions of the National Meeting of Physics Students.</P>
-            <P>While studying Physics I was taught problem solving in Python.</P>
+            <P>While studying Physics I was taught problem-solving in Python.</P>
             <P important>In 2013 I completed the BSc in Physics.</P>
             <P>In 2012 I moved to the Netherlands for a one year stay at Radboud University Nijmegen to study
                 theoretical particle physics under the ERASMUS protocol.</P>
@@ -70,23 +70,26 @@ const Chronology: React.FunctionComponent = () =>
         <Tab title="Software development"
              subTitle="from 2016"
              tabKey={TabKey.software}>
-            <P important>From May 2016 to May 2017 I worked for the consulting agency Newcraft. I started in the
-                position of junior PHP developer, having briefly taken a few months later the role became the lead
-                developer for an online store of one of the largest telecom companies in the Netherlands.</P>
-            <P important>At the end of 2016, I moved to the data science team of Newcraft, specifically to develop a
+            <P important>From May 2016 to May 2017 I worked for the consulting agency <a
+                href="https://newcraftgroup.com">Newcraft</a>.</P>
+            <P>I started in the position of junior PHP developer, having briefly taken a few months later the role
+                became the lead developer for an online store of one of the largest telecom companies in the
+                Netherlands. At the end of 2016, I moved to the data science team of Newcraft, specifically to develop a
                 real-time marketing project in Scala, Apache Spark and Cassandra.</P>
             <P>During my year in Newcraft I worked for some of the largest Dutch and international brands. I've also
                 coached my colleagues in Python and Django development, having been the person introducing this
                 framework to the company.</P>
-            <P important>From May 2017 to August 2018 worked for the tour operator srprs.me as an in-house developer. I
-                helped the company by migrating our projects to Webpack and by introducing the team to a new tech stack
+            <P important>From May 2017 to August 2018 worked for the tour operator <a
+                href="https://srprs.me">srprs.me</a> as an in-house developer.</P>
+            <P>I helped the company by migrating our projects to Webpack and by introducing the team to a new tech stack
                 featuring a backend powered by Django Rest Framework and a frontend powered by React and Redux. A new
                 website built on this stack was deployed to production in April of 2018.</P>
-            <P important>In August 2018 I started working for Bagpoint, a start-up in the luggage logistics industry.
-                Besides having contributed to the development of our enterprise-scale backend solution (in Python with
+            <P important>In August 2018 I started working for <a href="https://www.bagpoint.com">Bagpoint</a>, a
+                start-up in the luggage logistics industry.</P>
+            <P>Besides having contributed to the development of our enterprise-scale backend solution (in Python with
                 an API built with Django Rest Framework and deployed in a Google Cloud infrastructure) and mobile
                 solutions (in Typescript and React Native), I took such roles as software architect, project
-                manager/scrum master and producer of a promotional video for potential clients.</P>
+                manager/scrum master and producer of a promotional video targeting potential clients.</P>
         </Tab>
     </Section>
 
