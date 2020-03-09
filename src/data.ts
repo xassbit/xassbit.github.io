@@ -3,11 +3,10 @@ import {persistCombineReducers} from "redux-persist"
 import storage from "redux-persist/lib/storage"
 
 export enum TabKey {
-    formativeYears,
+    earlyYears,
     university,
     musicPorto,
-    newcraft,
-    srprsme,
+    software,
     jamWithHumans,
 }
 
@@ -16,8 +15,7 @@ export const toggleTab = (tabKey: TabKey): AnyAction => ({type: TOGGLE_TAB, tabK
 
 const initialState = [
     TabKey.university,
-    TabKey.newcraft,
-    TabKey.srprsme,
+    TabKey.software,
 ]
 
 const tabs = (state: TabKey[] = initialState, action: AnyAction): TabKey[] => {
