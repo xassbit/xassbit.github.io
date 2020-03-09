@@ -42,7 +42,7 @@ const Chronology: React.FunctionComponent = () =>
                 in Buenos Aires, where we recorded <a href="https://www.youtube.com/watch?v=_CWuW2OvvN0">
                     a second album with local musicians</a>.</P>
         </Tab>
-        <Tab title="Solo music/performance work"
+        <Tab title="Music and performance work in the Netherlands"
              subTitle="from 2013"
              tabKey={TabKey.jamWithHumans}>
             <P>Between 2012 and 2014 I offered music production and graphic design services online, created <a
@@ -57,6 +57,8 @@ const Chronology: React.FunctionComponent = () =>
             <P>Avidly listening to tech and self-employment podcasts lead me on a path to learn about task/project/time
                 management methodologies, workflow automation using iOS and Mac OS and, ultimately, web and iOS
                 development.</P>
+            <P>I starred on the award winning 2016 short movie{" "}
+                <a href="https://www.xchematic.com/vaenquish">Vaenquish</a>.</P>
             <P>In March 2017 I've released the free jazz album <a
                 href="https://controlledflame.com/en/records/">
                 Not That Different</a> and in June 2018 I've released the avant-garde rock album <a
