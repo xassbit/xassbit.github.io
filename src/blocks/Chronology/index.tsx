@@ -48,9 +48,9 @@ const Chronology: React.FunctionComponent = () =>
                 in Buenos Aires, where we recorded <a href="https://www.youtube.com/watch?v=_CWuW2OvvN0">
                     a second album with local musicians</a>.</P>
         </Tab>
-        <Tab title="Solo Years"
-             subTitle="2013 to 2016"
-             tabKey={TabKey.soloYears}>
+        <Tab title="Solo music/performance work"
+             subTitle="from 2013"
+             tabKey={TabKey.jamWithHumans}>
             <P important>I kept pursuing work in video production, having
                 created <a href="https://www.youtube.com/watch?v=Nvx9DflRec4">the music
                     video Arritmia Aritmética</a> for band A-nimal and
@@ -63,6 +63,16 @@ const Chronology: React.FunctionComponent = () =>
                 project and time management methodologies as well as exploring workflow
                 automation using iOS and Mac OS - which ultimately lead to starting to learn iOS
                 and web development.</P>
+            <P>From 2014 onwards I’ve focused not only on playing but also <a href="https://jamwithhumans.com">
+                teaching</a> and
+                composing improvisational music.</P>
+            <P>With Jam With Humans I faded out individual music lessons and replaced them by
+                workshops on improvisation and creativity.</P>
+            <P important>In March 2017 I've released <a href="https://controlledflame.com/en/records/">
+                the album “Not That Different”</a>,
+                featuring Paulo Alexandre Jorge.</P>
+            <P important>Starting in June 2017 I've been performing live with the Jam With Humans Orchestra - an
+                offshoot of the workshops.</P>
         </Tab>
         <Tab title="Consulting"
              subTitle="2016 to 2017"
@@ -83,20 +93,6 @@ const Chronology: React.FunctionComponent = () =>
             <P>I helped the company by migrating our projects to Webpack and by introducing the team to
                 a new tech stack featuring a backend powered by Django Rest Framework and a frontend powered by
                 React and Redux. A new website build on this stack was deployed to production in April of 2018.</P>
-        </Tab>
-        <Tab title="Improvisational music"
-             subTitle="from 2014"
-             tabKey={TabKey.jamWithHumans}>
-            <P>From 2014 onwards I’ve focused not only on playing but also <a href="https://jamwithhumans.com">
-                teaching</a> and
-                composing improvisational music.</P>
-            <P>With Jam With Humans I faded out individual music lessons and replaced them by
-                workshops on improvisation and creativity.</P>
-            <P important>In March 2017 I've released <a href="https://controlledflame.com/en/records/">
-                the album “Not That Different”</a>,
-                featuring Paulo Alexandre Jorge.</P>
-            <P important>Starting in June 2017 I've been performing live with the Jam With Humans Orchestra - an
-                offshoot of the workshops.</P>
         </Tab>
     </Section>
 

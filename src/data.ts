@@ -6,7 +6,6 @@ export enum TabKey {
     formativeYears,
     university,
     musicPorto,
-    soloYears,
     newcraft,
     srprsme,
     jamWithHumans,
