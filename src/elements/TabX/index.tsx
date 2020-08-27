@@ -1,11 +1,20 @@
 import * as React from "react"
 import Collapsible from "react-collapsible"
+import {TabKey} from "../../data"
 
-function TabX() {
-    return <Collapsible trigger="Start here">
-        <p>This is the collapsible content. It can be any element or React component you like.</p>
-        <p>It can even be another Collapsible component. Check out the next section!</p>
-    </Collapsible>
+interface TabXProps {
+    title: string
+    subTitle: string
+    tabKey: TabKey
 }
+
+const TabX: React.FunctionComponent<TabXProps> = (props) => <Collapsible trigger={
+    <div>
+        <h3>{props.title}</h3>
+        <p>{props.subTitle}</p>
+    </div>
+}>
+    <p>{props.children}</p>
+</Collapsible>
 
 export default TabX
