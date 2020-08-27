@@ -48,5 +48,8 @@
   "scripts": {
     "server": "webpack-dev-server --hot --mode=development",
     "build": "webpack --env=prod --progress --colors"
+  },
+  "dependencies": {
+    "react-collapsible": "^2.8.0"
   }
 }
