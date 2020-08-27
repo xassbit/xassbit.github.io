@@ -8,12 +8,15 @@ interface TabXProps {
     tabKey: TabKey
 }
 
-const TabX: React.FunctionComponent<TabXProps> = (props) => <Collapsible trigger={
-    <div>
-        <h3>{props.title}</h3>
-        <p>{props.subTitle}</p>
-    </div>
-}>
+const TabX: React.FunctionComponent<TabXProps> = (props) => <Collapsible
+    trigger={
+        <div>
+            <h3>{props.title}</h3>
+            <p>{props.subTitle}</p>
+        </div>
+    }
+    transitionTime={200}
+>
     <p>{props.children}</p>
 </Collapsible>
 
